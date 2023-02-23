@@ -21,15 +21,21 @@ author_profile: true
 
 * [**Gender Difference and Intra-household Economic Power in Mortgage Signing Order**](https://www.sciencedirect.com/science/article/abs/pii/S104295731830007X)  (with Agarwal, S., R. Green, E. Rosenblatt, and V. Yao,) **_Journal of Financial Intermediation_**, 36, 2018 86-100.	
 
+## Book Reviews, Literature Reviews, and Other Publications (selected):
+
+* [**Household Finance**](https://oxfordre.com/economics/display/10.1093/acrefore/9780190625979.001.0001/acrefore-9780190625979-e-430?rskey=EcVXuv&result=1) (with S. Agarwal and X. Zou) **_Oxford Research Encyclopedia of
+Economics and Finance_**, Oxford University Press, 2022.
+
+* [**“FinTech, Lending and Payment Innovation: A Review**](https://onlinelibrary.wiley.com/doi/abs/10.1111/ajfs.12294) (with S. Agarwal) **_Asia-Pacific Journal of Financial Studies_**, 49(3), 2020, 347-509.	
+
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
 * Liberalizing Home-Based Business (with S. Agarwal, T. Sing and C. Song) 
-* When Human Met Algorithm: Evidence from Retail Investor Trading (with P.  Ghosh and Y. Li)
+* Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+* Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
 * Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh)
 * Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 * Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 * Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
-* Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
-* Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
-* Cash-Back Rewards, Household Spending, and Debt Accumulation (with S. Agarwal S. Ang and Y. Wang)
+
 
