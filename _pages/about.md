@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jian (Colin) ZHANG"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,11 +9,7 @@ redirect_from:
 ---
 
 
-I am an Assistant Professor of Finance at the University of Hong Kong.
+Jian Zhang is an Assistant Professor of Finance at the University of Hong Kong.
 
-My research interests include household finance, Financial Intermediation, Behavioral Finance and Sustainability
-Email: zhangj1@hku.hk
-Phone: (852) 3917-4176
-Address: 
-     KKL 819, Pok Fu Lam
-     Hong Kong, China
+Jian Zhang's primary research interests include household finance, financial intermediation, behavioral finance and sustainability.His research is accepted for publication at Journal of Financial Economics, Review of Economics and Statistics,  Management Science, Journal of Financial and Quantitative Analysis, Review of Finance and Journal of Financial Intermediation.
+

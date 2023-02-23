@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 [Download CV here](https://colinjianzhang.github.io/files/cv.pdf)
+
 <!--Education
 ======
 * B.S. in GitHub, GitHub University, 2012
