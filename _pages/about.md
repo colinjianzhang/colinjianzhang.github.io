@@ -11,5 +11,12 @@ redirect_from:
 
 Jian Zhang is an Assistant Professor of Finance at the University of Hong Kong.
 
-Jian Zhang's primary research interests include household finance, financial intermediation, behavioral finance and sustainability.His research is accepted for publication at Journal of Financial Economics, Review of Economics and Statistics,  Management Science, Journal of Financial and Quantitative Analysis, Review of Finance and Journal of Financial Intermediation.
+Jian Zhang's primary research interests include household finance, behavioral finance, real estate and financial intermediation and sustainability. His research is accepted for publication at *Journal of Financial Economics*, *Review of Economics and Statistics*,  *Management Science*, *Journal of Financial and Quantitative Analysis*, *Review of Finance* and *Journal of Financial Intermediation*.
 
+*Address*:
+
+#KKL 819, Pok Fu Lam, The University of Hong Kong, Hong Kong, CN 
+
+Email: zhangj1@hku.hk
+
+Office Phone: +852 3917-4716

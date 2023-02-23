@@ -4,10 +4,9 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+ - /resume
+  - /CV
 ---
-
-{% include base_path %}
 
 [Download CV here](https://colinjianzhang.github.io/files/cv.pdf)
 
