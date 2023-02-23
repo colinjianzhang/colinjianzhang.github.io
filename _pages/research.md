@@ -9,7 +9,7 @@ author_profile: true
 
 * [**Investing in Low-Trust Countries: on the Role of Social Trust in the Global Mutual Fund Industry**](https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/abs/investing-in-lowtrust-countries-on-the-role-of-social-trust-in-the-global-mutual-fund-industry/BCB3D07E9586DFA791793DE3DD1F02F8) (with Massa, M., C. Wang, and H. Zhang) **_Journal of Financial and Quantitative Analysis_**, 57(1), 2022, 240-290.
 
-* [**Air Pollution, Behavioral Bias, and the Disposition Effect in China**](https://www.sciencedirect.com/science/article/abs/pii/S0304405X19302223) (Journal of Financial Economics) **_Journal of Financial Economics_**, 142(2), 2021, 641-673.
+* [**Air Pollution, Behavioral Bias, and the Disposition Effect in China**](https://www.sciencedirect.com/science/article/abs/pii/S0304405X19302223) (with Li, J., M. Massa,and H. Zhang) **_Journal of Financial Economics_**, 142(2), 2021, 641-673.
 
 * [**Interest Rate Pass-Through and Consumption Response: The Deposit Channel**](https://www.mitpressjournals.org/doi/abs/10.1162/rest_a_00941?mobileUi=0) (with Agarwal, S., S. Chomsisengphet,and Y. Yildirim) **_Review of Economics and Statistics_**, 103(5), 2021, 922-938.
 
@@ -19,7 +19,7 @@ author_profile: true
 
 * [**Gender Gap in Personal Bankruptcy Risks: Empirical Evidence from Singapore**](https://academic.oup.com/rof/article-abstract/22/2/813/2629221)  (with Agarwal, S., J. He, and T. Sing) **_Review of Finance_**, 22(2), 2018, 813-847.	
 
-* [**Gender Difference and Intra-household Economic Power in Mortgage Signing Order**](https://www.sciencedirect.com/science/article/abs/pii/S104295731830007X)  (with Agarwal, S., R. Green, E. Rosenblatt, and V. Yao,) **_Journal of Financial Intermediation_**, 36,2018 86-100.	
+* [**Gender Difference and Intra-household Economic Power in Mortgage Signing Order**](https://www.sciencedirect.com/science/article/abs/pii/S104295731830007X)  (with Agarwal, S., R. Green, E. Rosenblatt, and V. Yao,) **_Journal of Financial Intermediation_**, 36, 2018 86-100.	
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
@@ -28,8 +28,8 @@ author_profile: true
 * Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh)
 * Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 * Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
-* Social Interaction and Risk Learning in Health Insurance: Theory and Evidence from China (with S. Gong and C. Lin)
-* The Politics of Allocating Government Business across Banks:Evidence from an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
+* Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
+* Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
 * Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
-* Cash-Back Rewards, Household Spending, and Debt Accumulation (with M. Massa, C. Wang and H. Zhang)
+* Cash-Back Rewards, Household Spending, and Debt Accumulation (with S. Agarwal S. Ang and Y. Wang)
 
