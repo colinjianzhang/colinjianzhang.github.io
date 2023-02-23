@@ -5,9 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-## Refereed Publications:
+## Selected Publications:
 
-* [**Investing in Low-Trust Countries: on the Role of Social Trust in the Global Mutual Fund Industry**](https://jfqa.org/2020/04/28/investing-in-low-trust-countries-on-the-role-of-social-trust-in-the-global-mutual-fund-industry/) (with Massa, M., C. Wang, and H. Zhang) **_Journal of Financial and Quantitative Analysis_**, 57(1), 2022, 240-290.
+* [**Investing in Low-Trust Countries: on the Role of Social Trust in the Global Mutual Fund Industry**](https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/abs/investing-in-lowtrust-countries-on-the-role-of-social-trust-in-the-global-mutual-fund-industry/BCB3D07E9586DFA791793DE3DD1F02F8) (with Massa, M., C. Wang, and H. Zhang) **_Journal of Financial and Quantitative Analysis_**, 57(1), 2022, 240-290.
 
 * [**Air Pollution, Behavioral Bias, and the Disposition Effect in China**](https://www.sciencedirect.com/science/article/abs/pii/S0304405X19302223) (Journal of Financial Economics) **_Journal of Financial Economics_**, 142(2), 2021, 641-673.
 
@@ -23,23 +23,13 @@ author_profile: true
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
-* **Liberalizing Home-Based Business** (with S. Agarwal, T. Sing and C. Song) 
-* **When Human Met Algorithm: Evidence from Retail Investor Trading** (with P.  Ghosh and Y. Li)
-* **Dirty Air and Clean Investments: The impact of pollution information on ESG investment** (with R. Fisman, P. Ghosh and A. Sarkar)
-* **Co-Collateral and the Shadow Cost of Margin Constraints** (with M. Massa, C. Wang and H. Zhang)
-* **Social Interaction and Risk Learning in Health Insurance: Theory and Evidence from China** (with S. Gong and C. Lin)
-* **The Politics of Allocating Government Business across Banks:Evidence from an Emerging Market** (with S. Agarwal, B. Morais and C. Ruiz)
-* **Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India** (with P. Ghosh and H. Zhang)
-* **Cash-Back Rewards, Household Spending, and Debt Accumulation** (with M. Massa, C. Wang and H. Zhang)
-<!--
-* **Cheng, I.K.**, Achilleos, N., Smith, A. (2022) "Automated bow shock and magnetopause boundary detection with Cassini using threshold and deep learning methods." <i>Front. Astron. Space Sci.</i> 9:1016453. Full text available at <a href="https://doi.org/10.3389/fspas.2022.1016453">  Frontiers in Astronomy and Space Sciences </a>
+* Liberalizing Home-Based Business (with S. Agarwal, T. Sing and C. Song) 
+* When Human Met Algorithm: Evidence from Retail Investor Trading (with P.  Ghosh and Y. Li)
+* Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh)
+* Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
+* Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
+* Social Interaction and Risk Learning in Health Insurance: Theory and Evidence from China (with S. Gong and C. Lin)
+* The Politics of Allocating Government Business across Banks:Evidence from an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
+* Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+* Cash-Back Rewards, Household Spending, and Debt Accumulation (with M. Massa, C. Wang and H. Zhang)
 
- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}-->
