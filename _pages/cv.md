@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+[Download CV here](https://colinjianzhang.github.io/files/cv.pdf)
+<!--Education
 ======
 * B.S. in GitHub, GitHub University, 2012
 * M.S. in Jekyll, GitHub University, 2014
