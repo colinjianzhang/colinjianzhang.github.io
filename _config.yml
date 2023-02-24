@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Jian ZHANG"
-  avatar           : "profile.png"
+  avatar           : #"profile.png"
   bio              : "The University of Hong Kong"
   location         : "Hong Kong"
-  employer         :
+  employer         : "The University of Hong Kong"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : #"https://scholar.google.com.hk/citations?user=yIAKpewAAAAJ&hl=en"
   email            : "zhangj1@hku.hk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "colinjianzhang"
+  github           : #"colinjianzhang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6285-2191"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
