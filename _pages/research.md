@@ -31,10 +31,20 @@ Economics and Finance_**, Oxford University Press, 2022.
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
 * Liberalizing Home-Based Business (with S. Agarwal, T. Sing and C. Song), R&R 
+
 * Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
+
 * Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh), R&R 
+
 * Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
+
 * Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+
+* Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li), R&R
+
 * Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
+
 * Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
+
+  
 
