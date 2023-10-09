@@ -64,11 +64,11 @@ author_profile: true
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
-1. Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh)
+1. Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh), R&R
 
 2. Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 
-3. Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li)
+3. Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li), R&R
 
 4. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 
