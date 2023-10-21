@@ -64,19 +64,23 @@ author_profile: true
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
-1. Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh), R&R
+1. Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh), Rev. & Resub.
 
 2. Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 
-3. Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li), R&R
+3. Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li), Rej. & Resub.
 
 4. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 
-5. Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+5. Value Added Tax and Corporate Product Mix Decisions (with P. Ghosh, Y. Kang and N. Shroff)
 
-6. Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
+6. Does Geopolitical Risk Exposure Lead to Higher Cost of Debt? Evidence from Multinational Companies (with F. Hu, T. Lin and W. Tan)
 
-7. Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
+7. Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
+
+8. Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+
+9. Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
 
    
 
