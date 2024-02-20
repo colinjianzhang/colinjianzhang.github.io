@@ -7,7 +7,7 @@ author_profile: true
 
 ## Selected Publications:
 
-1. [**Liberalizing Home-Based Business**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136792) (with  S. Agarwal, T. Sing and C. Song)  **_Management Science_**, forthcoming. 
+1. [**Liberalizing Home-Based Business**](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.04232) (with  S. Agarwal, T. Sing and C. Song)  **_Management Science_**, forthcoming. 
 
      * <details> <summary>Abstract</summary>
        Working at home benefits entrepreneurs by lowering fixed costs and allowing them to engage in joint market and household production. We evaluate a large-scale reform in Singapore, the Home Office Scheme, that allowed business creation at one's residential property and study whether home-based entrepreneurship spurs entrepreneurial activities. The difference-in-differences estimate shows that the reform led to a significantly higher level of business creation and that the firms newly created in response to the reform had a higher survival rate. The effect is more pronounced for low-income female individuals and industries with high startup capital, implying that financial constraints and nonpecuniary benefits likely drive the effect. The reform also encourages entrepreneurs to become serial entrepreneurs, and they open a larger business with a similar survival rate for their second firm. Overall, our findings suggest that the program effectively attracted more entry into self-employment without significantly lowering the average quality of the pool.
