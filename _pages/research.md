@@ -80,7 +80,7 @@ author_profile: true
 
 8. Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
 
-9. Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)
+<!---9. Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)--->
 
    
 
