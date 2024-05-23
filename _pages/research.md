@@ -72,7 +72,7 @@ author_profile: true
 
 4. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 
-5. Value Added Tax and Corporate Product Mix Decisions (with P. Ghosh, Y. Kang and N. Shroff)
+5. A Tale of Two Zoos: Machine Learning Insights on Retail Investors (with P. Ghosh, H. Lu and H. Zhang)
 
 6. Does Geopolitical Risk Exposure Lead to Higher Cost of Debt? Evidence from Multinational Companies (with F. Hu, T. Lin and W. Tan)
 
