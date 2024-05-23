@@ -68,7 +68,7 @@ author_profile: true
 
 2. Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 
-3. Adapting to the New Era of Algorithmic Trading (with P. Ghosh and Y. Li), Rej. & Resub.
+3. When Human Met Algorithm: Evidence from Retail Investor Trading (with P. Ghosh and Y. Li), Rej. & Resub.
 
 4. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 
