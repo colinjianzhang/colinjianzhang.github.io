@@ -7,7 +7,10 @@ author_profile: true
 
 ## Selected Publications:
 
-1. [**Liberalizing Home-Based Business**](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.04232) (with  S. Agarwal, T. Sing and C. Song)  **_Management Science_**, forthcoming. 
+1. [**Tax Policy Transmission and Household Expenditure**] (with S. Agarwal and P. Ghosh) **_Review of Economics and Statistics_**, accepted.
+
+
+2. [**Liberalizing Home-Based Business**](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.04232) (with  S. Agarwal, T. Sing and C. Song)  **_Management Science_**, forthcoming. 
 
      * <details> <summary>Abstract</summary>
        Working at home benefits entrepreneurs by lowering fixed costs and allowing them to engage in joint market and household production. We evaluate a large-scale reform in Singapore, the Home Office Scheme, that allowed business creation at one's residential property and study whether home-based entrepreneurship spurs entrepreneurial activities. The difference-in-differences estimate shows that the reform led to a significantly higher level of business creation and that the firms newly created in response to the reform had a higher survival rate. The effect is more pronounced for low-income female individuals and industries with high startup capital, implying that financial constraints and nonpecuniary benefits likely drive the effect. The reform also encourages entrepreneurs to become serial entrepreneurs, and they open a larger business with a similar survival rate for their second firm. Overall, our findings suggest that the program effectively attracted more entry into self-employment without significantly lowering the average quality of the pool.
@@ -64,21 +67,19 @@ author_profile: true
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
-1. Tax Policy Transmission and Household Expenditure (with S. Agarwal and P. Ghosh), Rev. & Resub.
+1. Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
 
-2. Dirty Air and Clean Investments: The impact of pollution information on ESG investment (with R. Fisman, P. Ghosh and A. Sarkar)
+2. When Human Met Algorithm: Evidence from Retail Investor Trading (with P. Ghosh and Y. Li), Rej. & Resub.
 
-3. When Human Met Algorithm: Evidence from Retail Investor Trading (with P. Ghosh and Y. Li), Rej. & Resub.
+3. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
 
-4. Co-Collateral and the Shadow Cost of Margin Constraints (with M. Massa, C. Wang and H. Zhang)
+4. A Tale of Two Zoos: Machine Learning Insights on Retail Investors (with P. Ghosh, H. Lu and H. Zhang)
 
-5. A Tale of Two Zoos: Machine Learning Insights on Retail Investors (with P. Ghosh, H. Lu and H. Zhang)
+5. Does Geopolitical Risk Exposure Lead to Higher Cost of Debt? Evidence from Multinational Companies (with F. Hu, T. Lin and W. Tan)
 
-6. Does Geopolitical Risk Exposure Lead to Higher Cost of Debt? Evidence from Multinational Companies (with F. Hu, T. Lin and W. Tan)
+6. Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
 
-7. Financing the Government: Procurement Rules and Bank Lending in an Emerging Market (with S. Agarwal, B. Morais and C. Ruiz)
-
-8. Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
+7. Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India (with P. Ghosh and H. Zhang)
 
 <!---9. Risk Perception, Social Networks, and Demand for Health Insurance (with S. Gong and C. Lin)--->
 
