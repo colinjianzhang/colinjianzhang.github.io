@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "Working Papers"
 permalink: /workingpapers/
 author_profile: true
