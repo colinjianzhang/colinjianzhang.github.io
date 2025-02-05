@@ -30,6 +30,7 @@
     .page__meta,
     .page__share {
       @include full();
+      text-align: justify; // Added for justification
     }
   }
 }
@@ -46,6 +47,7 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  text-align: justify; // Added for justification
 }
 
 .page__content {
