@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Working Papers"
 permalink: /workingpapers/
 author_profile: true
