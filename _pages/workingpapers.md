@@ -8,7 +8,7 @@ author_profile: true
 
 ## Selected Working Papers([SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628)):
 
-1. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4616881#" style="text-decoration: none;">  <span style="color: RoyalBlue;"> Dirty Air and Clean Investments: The Impact of Pollution Information on ESG Investment</span></a>, (with R. Fisman, P. Ghosh and A. Sarkar）.
+1. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4616881#" style="text-decoration: none;">  <span style="color: RoyalBlue;"> Dirty Air and Clean Investments: The Impact of Pollution Information on Portfolio Allocations</span></a>, (with R. Fisman, P. Ghosh and A. Sarkar）.
      <details> <summary>Abstract</summary>
        <span style="color: purple;"> We study exposure to pollution information and investment portfolio allocations, exploiting the rollout of air quality monitoring stations in India. Using a triple-differences framework, we show that retail investors' investments in ``brown'' stocks are negatively related to local air pollution after a monitoring station appears nearby, with particularly pronounced effects on ``alert'' dates when air quality is listed as harmful to the general population. The effect of pollution information on investment choices is most prominent amongst tech-savvy investors who are most plausibly ``treated'' by real-time pollution data, and by younger investors who tend to be more sensitive to environmental concerns. Overall, our results provide micro-level support for the view that salience of environmental conditions affect investors' tastes for green investments.</span>
 <br>
