@@ -64,7 +64,7 @@ author_profile: true
 
 ## Book Reviews, Literature Reviews, and Other Publications (selected):
 
-1. <a href="https://www.worldscientific.com/worldscibooks/10.1142/13936?srsltid=AfmBOoqHEf_qvWsm5r_PIwzCKF5lKHB-3LYlwsRVF2gq_SkZrlCOwu5i#t=aboutBook" style="text-decoration: none;">  <span style="color: RoyalBlue;"> Household Sustainability: Nurturing a Greener, Fairer, and More Prosperous Future</span></a>, with S. Agarwal and X. Zou, World Scientific Pub, 2025.
+1. <a href="https://www.worldscientific.com/worldscibooks/10.1142/13936?srsltid=AfmBOoqHEf_qvWsm5r_PIwzCKF5lKHB-3LYlwsRVF2gq_SkZrlCOwu5i#t=aboutBook" style="text-decoration: none;">  <span style="color: RoyalBlue;"> Household Sustainability: Nurturing a Greener, Fairer, and More Prosperous Future</span></a>, with S. Agarwal and X. Zou, World Scientific Publishing, 2025.
 
 2. <a href="https://oxfordre.com/economics/display/10.1093/acrefore/9780190625979.001.0001/acrefore-9780190625979-e-430?rskey=EcVXuv&result=1" style="text-decoration: none;">  <span style="color: RoyalBlue;"> Household Finance</span></a>, with S. Agarwal and X. Zou, **_Oxford Research Encyclopedia of
     Economics and Finance_**, Oxford University Press, 2022.
