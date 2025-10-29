@@ -8,7 +8,7 @@ author_profile: true
 
 ## Selected Publications:
 
-1. <a style="text-decoration: none;">  <span style="color: RoyalBlue;"> Dirty Air and Green Investments: The Impact of Pollution Information on Portfolio Allocations</span></a>, with R. Fisman, P. Ghosh and A. Sarkar, **_Journal of Financial Economics_**, Conditionally Accepted.
+1. <a style="text-decoration: none;">  <span style="color: RoyalBlue;"> Dirty Air and Green Investments: The Impact of Pollution Information on Portfolio Allocations</span></a>, with R. Fisman, P. Ghosh and A. Sarkar, **_Journal of Financial Economics_**, Accepted.
      <details> <summary>Abstract</summary> 
        <span style="color: purple;">We study whether access to local pollution information causes investors to make greener portfolio allocations, exploiting the rollout of air quality monitoring stations in India. Using a triple-differences framework on the trading records of 19 million investors, we show that retail investors' holdings in ``brown'' stocks become more negatively related to local pollution after a nearby station appears. This effect is more pronounced on ``alert'' dates when air quality is reported to be harmful. The effect is strongest among tech-savvy investors likely ``treated'' by real-time pollution data, and younger investors, who may be more sensitive to environmental concerns.</span>
 
