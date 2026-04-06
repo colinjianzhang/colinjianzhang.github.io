@@ -85,15 +85,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
 
   @include breakpoint($large) {
-    @include span(3 of 12);
-    padding-right: 1rem;
+    @include span(2.7 of 12);
+    padding-right: 0.85rem;
   }
 }
 
 .page,
 .archive {
   @include breakpoint($large) {
-    @include span(8.5 of 12 last);
+    @include span(8.8 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(0 of 12);
   }
@@ -101,31 +101,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .page {
   background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .page .page__inner-wrap {
-  padding: 1.9rem 1.85rem 2.1rem;
+  padding: 1.2rem 0 1.8rem;
 }
 
 .archive {
-  padding: 1.9rem 1.85rem 2.1rem;
+  padding: 1.2rem 0 1.8rem;
   background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .author-card {
   position: relative;
   overflow: hidden;
-  padding: 1.15rem;
+  padding: 0.4rem 0 0;
   background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 
   &:before {
     content: "";
@@ -153,22 +153,22 @@ h1, h2, h3, h4, h5, h6 {
 
   img {
     width: 100%;
-    max-width: 150px;
+    max-width: 128px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: none;
   }
 }
 
 .author__content {
   display: block;
-  padding: 0.9rem 0 0;
+  padding: 0.75rem 0 0;
 }
 
 .sidebar .author__name,
 .author__name {
   margin: 0;
-  font-size: 1.22rem;
+  font-size: 1.08rem;
   line-height: 1.2;
   color: #111827;
 }
@@ -177,13 +177,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.55rem 0 0;
   color: #4b5563;
   font-family: $sans-serif;
-  font-size: 0.88rem;
-  line-height: 1.45;
+  font-size: 0.82rem;
+  line-height: 1.4;
 }
 
 .author__urls-wrapper {
   display: block;
-  margin-top: 1.35rem;
+  margin-top: 1rem;
 }
 
 .author__urls-wrapper button {
@@ -209,8 +209,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .author__urls {
   position: relative;
-  margin: 0.9rem 0 0;
-  padding: 0.9rem 0 0;
+  margin: 0.7rem 0 0;
+  padding: 0.75rem 0 0;
   border: 0;
   border-top: 1px solid #e5e7eb;
   background: transparent;
@@ -222,10 +222,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   li {
-    margin-bottom: 0.55rem;
+    margin-bottom: 0.45rem;
     color: #4b5563;
     font-family: $sans-serif;
-    font-size: 0.84rem;
+    font-size: 0.78rem;
     white-space: normal;
   }
 
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     color: #334155;
-    font-size: 0.84rem;
+    font-size: 0.78rem;
     text-decoration: none;
   }
 
@@ -264,9 +264,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__title {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   color: #111827;
-  font-size: 1.75rem;
+  font-size: 1.52rem;
   line-height: 1.15;
 }
 
@@ -279,18 +279,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #1f2937;
 
   h2 {
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     padding-bottom: 0;
     border-bottom: 0;
     color: #111827;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
 
   p,
   li,
   dl {
-    font-size: 0.92rem;
-    line-height: 1.7;
+    font-size: 0.86rem;
+    line-height: 1.62;
   }
 
   a {
@@ -306,20 +306,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   details {
-    margin: 0.65rem 0 1.35rem;
-    padding: 0.8rem 0.95rem;
+    margin: 0.55rem 0 1.15rem;
+    padding: 0.7rem 0.8rem;
     background: #fafafa;
     border: 1px solid #e5e7eb;
-    border-radius: 8px;
+    border-radius: 6px;
   }
 
   summary {
     cursor: pointer;
     color: #475569;
     font-family: $sans-serif;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
@@ -344,14 +344,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-home .page__title {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.72rem;
 }
 
 .page-home .page__content > p:first-of-type {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   color: #374151;
-  font-size: 0.97rem;
-  line-height: 1.8;
+  font-size: 0.9rem;
+  line-height: 1.68;
 }
 
 .page-home .page__content > p {
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-home .author-card {
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+  box-shadow: none;
 }
 
 .page__meta,
@@ -386,16 +386,16 @@ h1, h2, h3, h4, h5, h6 {
   .page .page__inner-wrap,
   .archive,
   .author-card {
-    padding: 1.35rem 1.15rem 1.45rem;
-    border-radius: 10px;
+    padding: 0;
+    border-radius: 0;
   }
 
   .page__title {
-    font-size: 1.5rem;
+    font-size: 1.32rem;
   }
 
   .author__avatar img {
-    max-width: 132px;
+    max-width: 118px;
   }
 
   .author__urls {
