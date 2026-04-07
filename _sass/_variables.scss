@@ -27,10 +27,13 @@ $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
+$roboto-slab                : 'Roboto Slab', serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+
+$global-font-family         : $roboto-slab;
+$header-font-family         : $global-font-family;
+$caption-font-family        : $global-font-family;
+$side-font                  : $global-font-family;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -52,6 +55,8 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
+$my-orange                  : rgb(177, 119, 48);
+
 
 $body-color                 : #fff;
 $background-color           : #fff;
@@ -90,7 +95,7 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $my-orange;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;

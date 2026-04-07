@@ -10,12 +10,13 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-gem "tzinfo-data" if Gem.win_platform?
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
+
+gem "tzinfo-data" if Gem.win_platform?
 
 # `wdm` is only needed for file watching on Windows and fails to compile on newer Ruby toolchains.
 gem "wdm", "~> 0.1.0" if Gem.win_platform? && Gem::Version.new(RUBY_VERSION) < Gem::Version.new("3.2")
@@ -24,6 +25,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform? && Gem::Version.new(RUBY_VERSION) < G
 group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
   gem 'hawkins'
 end

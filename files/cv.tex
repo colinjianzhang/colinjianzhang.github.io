@@ -1,0 +1,275 @@
+\documentclass[a4paper, 10pt]{article}
+
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{enumitem}
+\usepackage[margin=0.75in]{geometry}
+\definecolor{darkorange}{RGB}{200, 102, 0}
+\usepackage[colorlinks=true, linkcolor=darkorange, citecolor=darkorange, filecolor=darkorange, urlcolor=darkorange]{hyperref}
+\usepackage{needspace}
+\usepackage{mathpazo}
+\usepackage{tabu}
+\usepackage{charter} % Bitstream Charter Font
+
+\setlength{\parindent}{0cm} % Default is 15pt.
+
+\newcounter{mycounter}
+\setcounter{mycounter}{\theenumi}
+
+% Section of CV: \cvsec{name}
+\newcommand{\cvsec}[1]
+{
+	% Keep from breaking right after section. Adjust "2" to larger number if page is still breaking.
+	\needspace{2\baselineskip}
+	\noindent \textbf{#1}
+	
+	\vspace{2pt}
+	
+	\hrule
+	
+	\bigskip
+}
+
+% Chronological item: \cvitem{year}{entry}.
+% 
+% To accommodate multiple rows for "entry" just include them with e.g. \cvitem{2016}{some entry \\ & continued \\ & continued further}, where the "\\ &" separators take advantage of the fact that there is a tabular environment operating under the hood.
+\newcommand{\cvitem}[2]{#1 & #2 \\ & \\}
+
+% Include paper title with abstract: \cvpaper{title}{abstract}
+\newcommand{\cvpaper}[2]
+{
+\item #1 \\
+
+\textbf{Abstract:} #2 \\ 	
+}
+
+% Include paper title without abstract: \cvpaper{title}
+\newcommand{\cvwip}[1]
+{
+\item #1 
+}
+
+% Unformatted environment: \begin{cvfree}{title} ... \end{cvfree}
+\newenvironment{cvfree}[1]
+{
+	\cvsec{#1}
+	}
+	{
+	\bigskip
+}
+
+% Chronological entries environment: \begin{cvchrono}{title} ... \end{cvchrono}
+\newenvironment{cvchrono}[1]
+{
+	\cvsec{#1}
+	% "6" below implies 6:1 ratio of text to dates. Change as needed.
+	\begin{tabu} to \linewidth {X[1,l]X[6,l]} 
+}
+{
+	\end{tabu}
+}
+	
+% Enumerated section environment: \begin{cvlist}{title} ... \end{cvlist}
+\newenvironment{cvlist}[1]
+{
+	\cvsec{#1}
+	\begin{enumerate}
+}
+{
+	\setcounter{mycounter}{\theenumi}
+	\end{enumerate}
+}
+
+% Enumerate section environment that keeps running counter: \begin{cvcontinue}{title} ... \end{cvcontinue}
+\newenvironment{cvcontinue}[1]
+{
+	\cvsec{#1}
+	\begin{enumerate}
+		\setcounter{enumi}{\themycounter}
+	}
+	{
+	\setcounter{mycounter}{\theenumi}
+	\end{enumerate}
+}
+
+
+\begin{document}
+
+% Date of last update
+\begin{flushright}
+	This Version: \today{}
+	\vskip 0.01cm 
+	Latest Version: \href{https://www.timdesilva.me/files/cv.pdf}{here}
+\end{flushright}
+
+\bigskip
+
+\begin{center}
+	\huge \textsc{Tim de Silva}
+\end{center}
+
+\bigskip \bigskip
+
+\begin{tabu} to \linewidth {X[l]X[r]}
+%	 & \emph{Office:} (212) 998-8036 \\
+%	\textbf{Contact Address}:  & \textbf{Cell}: +1 (310) 872 9973 \\
+%	 & \textbf{Email}: \href{mailto:tdesilva@mit.edu}{tdesilva@mit.edu} \\
+%	 & \textbf{Website}: \href{http://www.timdesilva.me}{www.timdesilva.me} \\
+%	& \textbf{Twitter}: \href{https://twitter.com/timdesilva}{@timdesilva} \\
+%	& \textbf{GitHub}: \href{https://github.com/timhdesilva}{timhdesilva} \\
+%	 \textbf{Email}: \href{mailto:tdesilva@mit.edu}{tdesilva@mit.edu} & \textbf{Twitter}: \href{https://twitter.com/timdesilva}{@timdesilva} \\
+	 \textbf{Email}: \href{mailto:tdesilva@stanford.edu}{tdesilva@stanford.edu} & \textbf{Twitter/X}: \href{https://twitter.com/timdesilva}{@timdesilva} \\
+	\textbf{Website}: \href{http://www.timdesilva.me}{www.timdesilva.me} & \textbf{GitHub}: \href{https://github.com/timhdesilva}{timhdesilva} \\
+\end{tabu}
+
+\bigskip \bigskip
+
+\begin{cvchrono}{ACADEMIC POSITIONS}
+	\cvitem{2025-}{Assistant Professor of Finance, \textsc{Stanford University, Graduate School of Business}}
+	\cvitem{2025-}{Faculty Affiliate, \textsc{Stanford Human-Centered Artificial Intelligence Institute}}
+	\cvitem{2025-}{Affiliated Researcher, \textsc{MIT Sloan Consumer Finance Initiative}}
+	\cvitem{2024-2025}{Postdoctoral Fellow, \textsc{Stanford University, Institute for Economic Policy Research}}
+	\cvitem{2022-2026}{Honorary Appointment, \textsc{University of Technology Sydney}}
+	\cvitem{2022-2025}{Visiting Scholar, \textsc{Australian National University}}
+\end{cvchrono}
+
+\begin{cvchrono}{EDUCATION}
+	\cvitem{2024}{Ph.D. in Management (Finance) \\
+		& \textsc{Massachusetts Institute of Technology, Sloan School of Management} \\
+		& \emph{Dissertation Committee}: Taha Choukhmane, Jonathan A. Parker (Co-Chair), Lawrence D.W. Schmidt, Eric C. So, David Thesmar (Co-Chair)
+		} 
+	\cvitem{2021}{M.S. in Management Research \\
+		& \textsc{Massachusetts Institute of Technology, Sloan School of Management}
+		} 
+	\cvitem{2018}{B.A. in Financial Economics and Applied Mathematics, \emph{magna cum laude} \\
+		& \textsc{Claremont McKenna College} \\
+		& \emph{Thesis Supervisor}: Fan Yu
+		}
+\end{cvchrono}
+
+\begin{cvcontinue}{WORKING PAPERS}
+	\item \href{https://www.timdesilva.me/files/papers/fat_tails.pdf}{Expectations Formation with Fat-Tailed Processes: Evidence and Theory}, with Adam Rej, Eugene Larsen-Hallock, and David Thesmar.
+	\item \href{https://www.timdesilva.me/files/papers/si.pdf}{Selective Inattention to Interest Rates}, with Pierfrancesco Mei. \newline \textit{Reject and Resubmit, The American Economic Review}.
+	\item \href{https://www.timdesilva.me/files/papers/llm_advice.pdf}{AI Financial Advice: Supply, Demand, and Life Cycle Implications}, with Taha Choukhmane, Weidong Lin, and Matthew Akuzawa
+	\item \href{https://www.timdesilva.me/files/papers/agnostic_dp.pdf}{Model-Agnostic Dynamic Programming}, with Marc de la Barrera.
+\end{cvcontinue}
+
+\begin{cvcontinue}{PEER-REVIEWED PUBLICATIONS}
+	\item \href{https://www.timdesilva.me/files/papers/preferences_frictions.pdf}{What Drives Investors' Portfolio Choices? Separating Risk Preferences from Frictions}, with Taha Choukhmane \newline \emph{The Journal of Finance}, 2026, 81 (1): 5-48.
+	\item \href{https://www.timdesilva.me/files/papers/losing_optional.pdf}{Losing is Optional: Retail Option Trading and Expected Announcement Volatility}, with Eric C. So and Kevin C. Smith.  \newline \emph{The Review of Finance}, 2026, 30 (2), 489-535.
+	\item \href{https://www.timdesilva.me/files/papers/jmp_deSilva.pdf}{Insurance versus Moral Hazard in Income-Contingent Student Loan Repayment} \newline \emph{The Quarterly Journal of Economics}, 2025, 140 (4): 2851-2905.
+	\begin{itemize}
+		\item Winner of \emph{BlackRock Applied Research Award}, \emph{Top Finance Graduate Award}, \emph{FRA Best Paper Award}, \emph{Michael J. Barclay Young Scholar Award}, \emph{Brattle Group PhD Candidate Award}, \emph{USC Marshall School of Business Trefftzs Award for Best Student Paper}
+	\end{itemize}
+	\item \href{https://www.timdesilva.me/files/papers/noise_expectations.pdf}{Noise in Expectations: Evidence from Analyst Forecasts}, with David Thesmar \newline \emph{The Review of Financial Studies}, 2024, 37 (5): 1494-1537.
+	\begin{itemize}
+		\item Runner-Up for \emph{Michael J. Brennan Best Paper Award}
+	\end{itemize}
+\end{cvcontinue}
+
+\begin{cvcontinue}{OTHER PUBLICATIONS}
+	\item \href{http://timhdesilva.github.io/files/papers/trp_white_paper.pdf}{Age, Evolving Allocation Preferences, and the Case For Personalized Solutions}, with Sudipto Banerjee, Louisa Schafer, and Taha Choukhmane \newline \emph{T. Rowe Price Research Paper}, 2025.
+	\item \href{https://digitalcommons.iwu.edu/uer/vol14/iss1/8/}{Are Volatility Expectations in Different Countries Interdependent? A Data-Driven Solution to Structural VAR Identification for Implied Equity Volatility Indices} \newline \emph{Undergraduate Economic Review}, 2017, 14.
+	\begin{itemize}
+		\item Winner of Claremont McKenna College \emph{Best Senior Thesis in Financial Economics}
+	\end{itemize}
+	\item \href{https://digitalcommons.iwu.edu/uer/vol13/iss1/13/}{Is Google Search Behavior Related to Volatility? Incorporating Google Trends Data into a GARCH Model for Equity Volatility} \newline \emph{Undergraduate Economic Review}, 2016, 13.\\
+\end{cvcontinue}
+
+\begin{cvchrono}{SOFTWARE PACKAGES}
+	\cvitem{\texttt{nndp}}{Dynamic Programming with Neural Networks (joint with Marc de la Barrera) \\
+	& Source code: \href{https://github.com/marcdelabarrera/nndp}{\texttt{GitHub}}, \href{https://pypi.org/project/nndp/}{\texttt{PyPI}}
+	}
+\end{cvchrono}
+
+\begin{cvchrono}{AWARDS, FELLOWSHIPS, AND GRANTS}
+	\cvitem{2025}{Michael J. Brennan Best Paper Award (Runner-Up), Stanford IFDM Research Funding Grant}
+	\cvitem{2024}{Top Finance Graduate Award, SFS Cavalcade PhD Travel Grant, Brattle Group PhD Candidate Award for Outstanding Research, USC Marshall School of Business Trefftzs Award for Best Student Paper}
+	\cvitem{2023}{Winner of BlackRock Applied Research Award, FRA Best Paper Award, Michael J. Barclay Young Scholar Award, NBER Household Finance Grant (\$15,000), Mark Kritzman and Elizabeth Gorman Finance PhD Research Fund, MIT Sloan Stone Fund (x2), Thomas Anthony Pappas Endowed Scholarship Fund}
+	\cvitem{2022}{Mark Kritzman and Elizabeth Gorman Research Fund (joint with Taha Choukhmane)}
+	\cvitem{2018-2024}{MIT Sloan PhD Fellowship}
+	\cvitem{2018}{Phi Beta Kappa, Robert Day School BA Scholar, International Honor Society of Economics (Omicron Delta Epsilon), Best Senior in Economics, Best Senior Thesis in Financial Economics, Dean's List (Top 15\%)}
+%	\cvitem{2016}{Best Sophomore in Economics, Athletic Director's Honor Roll}
+%	\cvitem{2015}{Athletic Director's Honor Roll}
+\end{cvchrono}
+
+\begin{cvchrono}{OTHER POSITIONS}
+	\cvitem{2024-}{US Census Bureau Special Sworn Status (SSS)}
+	\cvitem{2018-2022}{Research Assistants for Taha Choukhmane, Eben Lazarus, and Eric C. So}
+	\cvitem{2017}{Institutional Equity Derivatives Trading and Research, Morgan Stanley}
+	\cvitem{2016}{Quantitative Investment Researcher, Analytic Investors}
+	\cvitem{2016}{Research Assistant at the Lowe Institute of Political Economy}
+	\cvitem{2016-2018}{Director, Claremont Consulting Group}
+	\cvitem{2015-2016}{Lead Consultant, Claremont Consulting Group}
+\end{cvchrono}
+
+%\begin{cvchrono}{TEACHING EXPERIENCE}
+%	\cvitem{Fall 2022}{TA for 15.425: Corporate Finance (MFin) \\
+%		& Professor David Thesmar, MIT Sloan
+%%		\\
+%%		& Rating: Mean = 5.3/7, Median = 6/7
+%		}
+%	\cvitem{Spring 2022}{TA for 15.453: Finance Lab (MFin) \\
+%		& Professors Gita Rao and Bhushan Vartak, MIT Sloan
+%%		\\
+%%		& Rating: Mean = 6.7/7, Median = 7/7
+%		}
+%	\cvitem{Spring 2022}{TA for 15.539: PhD Seminar in Empirical Methods (PhD) \\
+%		& Professors Eric C. So and Charles C.Y. Wang, MIT Sloan 
+%%		\\
+%%		& Rating: Mean = 7/7, Median = 7/7
+%		}
+%	\cvitem{Summer 2020}{TA for 15.511: Financial Accounting (Sloan Fellows MBA) \\
+%		& Professor Bala Dharan, MIT Sloan 
+%%		\\
+%%		& Rating: Mean = 6.3/7, Median = 7/7
+%		}
+%	\cvitem{Summer 2019}{TA for 15.511: Financial Accounting (Sloan Fellows MBA) \\
+%		& Professor Joe Weber, MIT Sloan 
+%%		\\
+%%		& Rating: Mean = 5.9/7, Median = 6/7
+%		}
+%	\cvitem{Spring 2018}{TA for ECON101: Intermediate Microeconomics (undergraduate) \\
+%		& Professor Saman Olfati, Claremont McKenna College 
+%%		\\
+%%		& Rating: N/A
+%		}
+%\end{cvchrono}
+
+\begin{cvchrono}{PRESENTATIONS (INCLUDES SCHEDULED)}
+	\cvitem{2026}{\textit{Seminars}: Federal Reserve Bank of Philadelpha, Duke Economics \newline \textit{Conferences}: CEPR 11th European Workshop on Household Finance, FMG Conference on Cognitive Foundations of Finance, WFA, SIEPR Conference on Budget Analysis and Public Policy}
+	\cvitem{2025}{\textit{Seminars}: BYU, Berkeley Haas, Washington Foster, T. Rowe Price Research Group, BlackRock, Federal Reserve Board of Governors, Berkeley Economics  \newline \textit{Conferences}: AFA, Q Group (Spring), Stanford Financial Education Symposium, NBER Behavioral Finance (Spring), BFI Conference on Rational Inattention, WFA, NBER SI Forecasting \& Empirical Methods, SITE Financial Regulation, SITE Macroeconomics of Uncertainty and Volatility, NBER Monetary Economics (Fall), NBER Asset Pricing (Fall)}
+	\cvitem{2024}{\textit{Seminars}: Chicago Booth, Princeton, Yale SOM, Harvard Business School, Harvard Economics, London School of Economics, London Business School, Wharton, UCLA Anderson, Stanford GSB, Northwestern Kellogg, Berkeley Haas, Columbia Business School, NYU Stern, Boston College Carroll, Bocconi, OSU Fisher, Claremont McKenna College, USC Marshall \newline \textit{Conferences}: Top Finance Graduate Award Conference (HEC Paris), SFS Cavalcade, WFA, Policy Impacts Annual Conference, SITE Market Failure and Public Policy, Swedish House of Finance Workshop on Household Debt Relief, Brookings New Doctoral Research in Tax Policy \& Public Finance, NBER Public Economics (Fall), NBER Economics of Education (Fall), SIEPR Financial Literacy Colloquia, e61 Micro 4 Macro Conference}
+	\cvitem{2023}{\textit{Seminars}: Inter-Finance PhD Seminar \newline \textit{Conferences}: Olin Finance Conference (PhD Poster Session), Financial Research Association (FRA) Conference, BlackRock Applied Research Award Panel}
+	\cvitem{2022}{\textit{Seminars}: Quantbot Technologies, Inter-Finance PhD Seminar \newline \textit{Conferences}: WFA, BSE PhD Workshop on Expectations in Macroeconomics}
+	\cvitem{2021}{\textit{Conferences}: Transatlantic Doctoral Conference, SoFiE Annual Conference}
+	\cvitem{2020}{\textit{Conferences}: Stanford GSB Rising Scholars Conference}
+\end{cvchrono}
+
+%\begin{cvchrono}{INVITED PARTICIPATION}
+%	\cvitem{2022}{NBER Behavioral Macroeconomics Research Bootcamp (Berkeley Haas), Yale Summer School in Behavioral Finance (Yale SOM), MFR Summer Session for Young Scholars (Chicago), MFR Workshop on the Financial Economics of Insurance (Chicago)}
+%	\cvitem{2021}{Mitsui Summer School on Structural Estimation in Corporate Finance (Michigan Ross)}
+%	\cvitem{2019}{Big Data Analytics for Accounting Research (MIT Sloan)}
+%\end{cvchrono}
+
+\begin{cvchrono}{PROFESSIONAL ACTIVITIES}
+	\cvitem{Referee}{\emph{Quarterly Journal of Economics, Journal of Political Economy, American Economic Review, Review of Economic Studies, Journal of Finance, Review of Financial Studies, Journal of Financial Economics, American Economic Journal: Economic Policy, Review of Economics and Statistics, Management Science, Journal of Financial Econometrics, Journal of Banking and Finance, Journal of Accounting and Economics, The Accounting Review}}i
+	\cvitem{Program Committee}{MFA 2025, SFS Cavalcade 2025, WFA 2025, FMA 2025, NFA 2025, SFS Cavalcade 2026, WFA 2026, EFA 2026, FMA 2026}
+\end{cvchrono}
+
+\begin{cvchrono}{SKILLS}
+	\cvitem{Software}{\textsc{Python}, \textsc{Fortran}, \textsc{C++}, \textsc{OpenMP}, \textsc{MPI}, \textsc{OpenACC}, \textsc{Git}, \textsc{Bash}, \textsc{Slurm}, \textsc{R}, \textsc{Sas}, \textsc{Stata}, \textsc{Bloomberg Terminal}, \LaTeX}
+	\cvitem{Languages}{English (native), Spanish (beginner)}
+\end{cvchrono}
+
+\begin{cvchrono}{OTHER ACTIVITIES}
+	\cvitem{Auto Racing}{FIA International Class B License (2017-), FIA Silver Driver Categorisation (2024-), \emph{Team USA Scholarship} Nominee (2015), \emph{Team USA Scholarship} Finalist (2016), 5x Formula 2000 Track Record Holder (2016-2017), Pacific F2000 Pro Series Champion (2016), \emph{Mazda Road to Indy \$250,000 Shootout} Competitor (2016), \emph{Motorsports Magazine} Silverstone Classic Driver of the Weekend (2022)}
+	\cvitem{Golf}{Ocean League Conference Individual Champion (2012, 2014), NCAA Division III National Team Champion (2016)}
+\end{cvchrono}
+
+\begin{cvfree}{PERSONAL INFORMATION}
+%Born: June 21st, 1996. 
+Ethnicity: Sri Lankan, White. Citizenship: USA.
+\end{cvfree}
+
+\end{document}
