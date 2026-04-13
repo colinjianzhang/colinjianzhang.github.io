@@ -1,0 +1,419 @@
+\documentclass[margin,line]{res}
+
+% File produced by Jeremy West
+% This file may be distributed and/or modified:
+%   1. under the LaTeX Project Public License and/or
+%   2. under the GNU Public License.
+
+% NOTE: you also need the (included) res.cls class file to compile this document
+% Either place the .cls file in the same directory (folder) as this .tex file, or install it globally for your LaTeX distribution (search online for how to do so).
+
+\usepackage{setspace}                                    % Allows for custom margins, etc.
+\usepackage{fullpage}                                    % Use the full page
+\usepackage[latin9]{inputenc}                            % Font definition and input type
+\usepackage[T1]{fontenc}                                 % Font output type 
+\usepackage{mmap}                                        % Allows glyphs (e.g. ff) to copy properly (ASCII)
+\usepackage{textcomp}                                    % Supports many symbols such as copyright
+\usepackage{color}  
+\usepackage{xcolor} 
+\usepackage{array}
+\usepackage[colorlinks = true,
+linkcolor = blue,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = blue]{hyperref}
+%                                    % Allow for colored text, etc.
+\usepackage[]{hyperref}                                  % Allow hyperlinks (internal and external)
+\hypersetup{                                             % Custom hyperlink settings
+    pdffitwindow=false,                                  % Window fit to page when opened
+    pdfstartview={XYZ null null 1.00},                   % Fits the zoom of the page to 100%
+    pdfnewwindow=true,                                   % Links in new window
+    colorlinks=true,                                     % false: boxed links; true: colored links
+    linkcolor=black,                                     % Color of internal links (black is necessary for printing quality)
+    citecolor=black,                                     % Color of links to bibliography
+    urlcolor=black,                                      % Color of external links
+    pdfauthor = {Jian ZHANG},
+    pdfkeywords = {IAN ZHANG},
+    pdftitle = {JIAN ZHANG: Curriculum Vitae},
+    pdfsubject = {Curriculum Vitae},
+    pdfpagemode = UseNone}
+    
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight}
+
+	\addtolength{\topmargin}{-.3in}
+	\addtolength{\textheight}{0.6in} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+      
+\usepackage{datetime}                                    % Custom date format for date field
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}   % Defining month year date format
+
+\usepackage{fancyhdr}                                    % Used for custom page headers
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt} 
+\rhead{\footnotesize % JIAN ZHANG \thepage
+	} %header at the right
+\headsep = 0.5cm
+% FIRST PAGE ONLY (redefine the plain pagestyle)
+\fancypagestyle{plain}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} 
+\headsep = 0.0cm
+\rhead{\footnotesize %Curriculum Vitae updated \mydate \today
+	}
+}
+\renewcommand{\arraystretch}{1.5}
+\begin{document}
+
+\name{ {\LARGE JIAN ZHANG} \vspace*{.1in}}
+
+\begin{resume}
+\thispagestyle{plain} % to use first page footer
+
+\section{\sc Contact Information}
+%\vspace{.05in}
+\begin{list1}
+	\item[] The University of Hong Kong \hfill \href{mailto: zhangj1@hku.hk}{Email: \color{blue} zhangj1@hku.hk}\\
+	\vspace*{-.15in}
+	\item[] Pokfulam Road, Hong Kong
+\end{list1}
+
+\section{\sc Academic Appointments}
+\begin{list1}
+	\item[] The University of Hong Kong 
+	\hfill 2020 -  \\
+	\vspace*{.2cm}
+	\phantom{th} Assistant Professor of Finance		
+	\item[] Hong Kong Baptist University
+	\hfill 2016 - 2020 \\
+	\vspace*{.2cm}
+	\phantom{th} Assistant Professor of Finance	
+	\item[] Baruch College, City University of New York
+	\hfill 2017 - 2018\\
+	\vspace*{.2cm}
+	\phantom{th} Newman Fellow	
+\end{list1}
+
+\section{\sc Education}
+\begin{list1}
+	\item[] Ph.D., Finance, National University of Singapore \hfill 2016 
+\\
+%	M.A., Economics, City University of Hong Kong  \hfill  2011\\
+	\vspace*{-.1in}
+	\item[] B.Eng., Electrical Engineering, University of Science and Technology of China \hfill 2010
+\end{list1}
+
+\section{\sc Research Interests}
+\begin{list1}
+\item[]  Household Finance, Behavioral Finance, Financial Intermediation, Real Estate, Sustainability  %Primary: One, Two
+%\item[] Secondary: One, Two
+\end{list1}
+
+\section{\sc Awards and Grants}
+\vspace{.1cm}
+\begin{tabular}{@{}p{0.0 in}p{0.6 in}p{4.60in}}
+	& 2021-2023 & PI, General Research Fund (GRF), the Research Grant Council, Hong Kong SAR, China, HK\$ 280,000 \\
+	& 2021-2023 & PI, Seed Fund for Basic Research, HKU, Hong Kong SAR, China, HK\$ 130,000 \\	
+	& 2019-2022   & Co-PI, Natural Science Fund of Guangdong Province, RMB 100,000 \\
+	& 2019-2020   & HKBU Business School Performance Award in Scholarly Work \\	
+	& 2018-2019   & Co-PI, Real Estate Research Institute (RERI) Grant, US\$ 15,000 \\
+	& 2018-2019   & PI, HKBU Faculty Research Grant, HK\$ 100,000 \\
+	& 2016-2019   & PI, HKBU Startup Grant, HK\$ 100,000 \\			
+	& 2015   & Best Paper Award in Banking and Financial Institutions, Asian Finance Association
+	Annual Conference \\		
+\end{tabular}
+\section{\sc Journal Publications}
+\begin{enumerate}
+
+\item ``Liberalizing Home-Based Business'', (with Agarwal, S., T. Sing, and C. Song), \textbf{\emph{Management Science}}, 2023, forthcoming.	
+\vspace*{0.2cm} 	
+\item ``\href{https://jfqa.org/2020/04/28/investing-in-low-trust-countries-on-the-role-of-social-trust-in-the-global-mutual-fund-industry/}{\color{black}  Investing in Low-Trust Countries: on the Role of Social Trust in the Global Mutual Fund Industry}'' (with Massa, M., C. Wang, and H. Zhang), \textbf{\emph{Journal of Financial and Quantitative Analysis}}, 57(1), 2022, 240-290.
+	\vspace*{0.2cm}
+\item ``\href{https://www.mitpressjournals.org/doi/abs/10.1162/rest_a_00941?mobileUi=0}{\color{black}  Interest Rate Pass-Through and Consumption Response: The Deposit Channel}'' (with Agarwal, S., S. Chomsisengphet,and Y. Yildirim), \textbf{\emph{Review of Economics and Statistics}}, 103(5), 2021, 922-938.
+\vspace*{0.2cm}	
+\item %[]	
+ ``\href{https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3557}{\color{black}  Good Days, Bad Days: Stock Market Fluctuation and Taxi Tipping Decisions}'' (with Tan W.), \textbf{\emph{Management Science}}, 67(6), 2021, 3965-3984.
+\vspace*{0.2cm}
+
+
+\item %[]	
+``\href{https://www.sciencedirect.com/science/article/abs/pii/S0304405X19302223}{\color{black} Air Pollution, Behavioral Bias, and the Disposition Effect in China}'' (with Li, J., M. Massa,and H. Zhang), \textbf{\emph{Journal of Financial Economics}}, 142(2), 2021, 641-673.
+\vspace*{0.2cm}	
+\item %[]	
+``\href{https://www.sciencedirect.com/science/article/abs/pii/S0304405X20300611}{\color{black} Disguised Corruption: Evidence from Consumer Credit in China}'' (with Agarwal, S., W. Qian, and A. Seru), \textbf{\emph{Journal of Financial Economics}},137(2), 2020, 137(2), 430-450.	
+\vspace*{0.2cm}	
+\item %[]	
+ ``\href{https://academic.oup.com/rof/article-abstract/22/2/813/2629221}{\color{black} Gender Gap in Personal Bankruptcy Risks: Empirical Evidence from Singapore} '' (with Agarwal, S., J. He, and T. Sing), \textbf{\emph{Review of Finance}},22(2), 2018, 813-847.
+\vspace*{0.2cm}
+\item %[]	
+``\href{https://www.sciencedirect.com/science/article/abs/pii/S0378426622001844}{\color{black} Housing Property Rights, Collateral, and Entrepreneurship: Evidence from China}'' (with G. Fan, H. Li and J. Li), \textbf{\emph{Journal of Banking and Finance}}, 143,2022, 160588.
+\vspace*{0.2cm}
+\item %[]	
+``\href{https://link.springer.com/article/10.1007/s11146-021-09837-1}{\color{black} Risk Retention Rules and the Issuance of Commercial Mortgage Backed Securities}'' (with S. Agarwal, B. Ambrose and Y. Yildirim), \textbf{\emph{Journal of Real Estate Finance and Economics}}, 2021, Forthcoming.
+\vspace*{0.2cm}
+\item ``\href{https://www.sciencedirect.com/science/article/abs/pii/S104295731830007X}{\color{black} Gender Difference and Intra-household Economic Power in Mortgage Signing Order} '' (with Agarwal, S., R. Green, E. Rosenblatt, and V. Yao,), \textbf{\emph{Journal of Financial Intermediation}},36, 2018, 86-100.	
+\end{enumerate}
+
+\section{\sc Selected Working Papers}
+\begin{enumerate}
+
+\item 	``Tax Policy Transmission and Household Expenditure'' (with S. Agarwal and P. Ghosh),	\textit{Revise \& Resubmit, Review of Economics and Statistics} %\textit{Revise \& Resubmit , Review of Economics and Statistics}	
+\vspace*{0.2cm}
+\item 	``When Human Met Algorithm: Evidence from Retail Investor Trading'', (with P.  Ghosh and Y. Li), \textit{Reject \& Resubmit, Management Science}	%\textit{Reject \& Resubmit, Management Science}
+\vspace*{0.2cm} 
+\item %[] 
+``Dirty Air and Clean Investments: The impact of pollution information on ESG investment'' (with R. Fisman, P. Ghosh and A. Sarkar)
+\vspace*{0.2cm}
+\item ``Co-Collateral and the Shadow Cost of Margin Constraints'' (with M. Massa, C. Wang and H. Zhang)
+\vspace*{0.2cm}
+\item %[] 
+``Value Added Tax and Corporate Product Mix Decisions '' (with P. Ghosh, Y. Kang and N. Shroff)
+\vspace*{0.2cm}
+\item %[] 
+``The Politics of Allocating Government Business across Banks:
+Evidence from an Emerging Market'' (with S. Agarwal, B. Morais and C. Ruiz)
+\vspace*{0.2cm}
+\item %[] 
+``Does Geopolitical Risk Exposure Lead to Higher Cost of Debt? Evidence from Multinational Companies'' (with F. Hu, T. Lin and W. Tan)
+\vspace*{0.2cm}
+%\item 	``Measuring the Size of Informal Economy'' (with S. Agarwal, P. Ghosh and A. Seru)
+%\item ``Do Investors Hedge Climate Risk? Evidence from 19 Million Retail Stock Traders '' (with P. Ghosh)
+\vspace*{0.2cm}
+\item ``Does Death Teach Us Wisdom? Evidence from Trading during the COVID-19 Pandemic in India'' (with P. Ghosh and H. Zhang)
+\vspace*{0.2cm}
+
+\item %[] 
+``Social Interaction and Risk Learning in Health Insurance: Theory and Evidence from China'' (with S. Gong and C. Lin)
+\vspace*{0.2cm}
+
+\iffalse
+\vspace*{0.2cm}
+\item ``Cash-back Rewards, household spending, and debt accumulation'' (with S. Agarwal and Y. Wang)
+ 
+
+\item %[] 
+``High-speed Internet Access and the Cost of Mortgage Credit '' (with S. Agarwal and Y. Wang)
+\vspace*{0.2cm}
+
+
+\item %[] 
+``Measuring the Size of Informal Economy: Estimates from 2016 Indian Demonetization'' (with S. Agarwal and P. Ghosh)
+\vspace*{0.2cm}
+
+\item %[] 
+``Corruption and Bureaucracy: Evidence from Front-running Public Project Announcements'' (with T. Piskorski, A. Seru)
+\vspace*{0.2cm} 
+\fi
+\end{enumerate}
+
+\section{\sc Reviews and Other Publications}
+\begin{enumerate}
+\item %[]
+``Household Finance'' (with S. Agarwal and X. Zou), \textbf{Oxford Research Encyclopedia of Economics and Finance}, May 2022
+\vspace*{0.2cm} 	
+\item %[]
+``FinTech, Lending and Payment Innovation: A Review'', (with S. Agarwal), \textbf{Asia-Pacific Journal of Financial Studies}, 49(3), 2020, 347-509.
+\vspace*{0.2cm} 	
+	\item %[]
+ ``Credit Card Market Study: Perspectives from Consumers'' (with S. Agarwal), \textbf{Financial Conduct Authority}, United Kingdom, MS 14/6.2, November 2015
+
+\end{enumerate}
+
+\iffalse
+
+\section{\sc Seminar and Conferences}
+\vspace{.05in}
+\begin{tabular}{@{}p{0.20in}p{0.20in}p{5.00in}}
+	&\multicolumn{2}{l}{} \\
+	& 2020   & Shanghai-Tech University(Scheduled); HKU\\		\vspace*{0.2cm}	
+	& 2019   & AREUEA-ASSA(D); Western Economic Association International Annual(WEAI) Meeting(C); CICF; ICAFEM Conference(P,D); CUHK; HKU-CBI Conference on Real Effects of Green Bonds and ESG(D)\\		
+	&2018    & EFMA; AREUEA International Annual Meeting ($\times$3); ISB Summer Research Conference; HongKong-ShenZhen Great Bay Area Summer Finance Conference, HKU; Symposium on China-ASEAN Financial Cooperation\\ 	
+	& 2017   & China Financial Research Conference; CICF; Asian FA; Baruch College\\
+	& 2016  & AFA; University of South Carolina, Columbia, SC; CUHK; Xiamen University; Jinan University \\
+	& 2015   &  CICF; Asian FA; Summer Institute of Finance Conference\\
+	& 2014   &  Singapore Scholar Symposium; Australasian Finance and Banking Conference(P,D); NUS	
+	
+\end{tabular}
+%\section{\sc Session chair(C)\\ /discussant(D)}
+%\vspace{.01in}
+%\begin{tabular}{@{}p{0.20in}p{0.20in}p{5.00in}}
+%	&\multicolumn{2}{l}	{} \\
+%	& 2019   & AREUEA Annual Meeting, Atlanta (D)\\
+%	&    & Western Economic Association International Annual Meeting, Tokyo (C) \\
+%	&    &	HKU-CBI Conference on Real Effects of Green Bonds and ESG, Hong Kong (D) \\
+%	&    &	ICAFEM Conference, Nanjing (D)\\	
+%	& 2018   & AREUEA International Annual Meeting, Guangzhou (D) \\ 
+%	& 2014   &  Australasian Finance and Banking Conference, Sydney(D) \\
+%	
+%\end{tabular}
+
+\section{\sc Teaching}
+\begin{list1}
+	\item[] \textbf{Hong Kong Baptist University} \\
+	\vspace*{-.1in}
+	\begin{list1}
+		\item[] FINE 2005, Financial Management \hfill Spring 2017,2018,2019,2020 
+	\end{list1}
+	\begin{list1}
+		\item[] 	
+		FIN 7250, Corporate Financial Management \hfill Spring 2020  \\
+	\end{list1}	
+	\item[] \textbf{National University of Singapore} \\
+	\vspace*{-.1in}
+	\begin{list1}
+		\item[] Tutorials for MBA Financial Risk Management \hfill Fall 2012, 2013, 2014 
+	\end{list1}
+	\begin{list1}
+		\item[] 	
+		Tutorials for PhD Applied Econometrics \hfill Spring 2015 \\
+	\end{list1}		
+	%	\item[] \textbf{National University of Singapore}  \hfill  Spring 2015\\
+	%	\vspace*{-.1in}
+	% \begin{list1}
+	%	\item[] Tutor,Finance (Undergraduate) \hfill  Spring 2015\\
+	%	%		 (Ranked 1st in the program)
+	%	%\begin{list2}
+	%	%\vspace*{.05in}
+	%	%\item Cumulative GPA:
+	%	%\end{list2}
+	%	Teaching Assistant, Applied Econometrics (Ph.D.) \hfill Spring 2015\\
+	%	Teaching Assistant, Financial Risk Management (Undergraduate) \hfill Spring 2014\\
+	%	Teaching Assistant, Banking Management (Undergraduate) \hfill Spring 2014\\
+	%	Teaching Assistant, Financial Risk Management (Undergraduate) \hfill Fall 2013\\
+	%	Teaching Assistant, Financial Risk Management (MBA) \hfill Fall 2012 
+	%\end{list1}
+	
+\end{list1}
+
+%
+%\begin{list1}
+%	\item[] 
+%	Tutor, Finance (Undergraduate), Teaching Evaluation: 4.0/5.0 \hfill 2015 \\
+%	%\hspace*{.02in}
+%	%\item[]
+%	Teaching Assistant, Applied Econometrics (Ph.D.) \hfill 2015\\
+%	%\vspace*{.02in}
+%	%\item[] 
+%	Teaching Assistant, Financial Risk Management (Undergraduate) \hfill 2014\\
+%	%\vspace*{.02in}
+%	%\item[]  
+%	Teaching Assistant, Banking Management (Undergraduate) \hfill 2014\\
+%	%\vspace*{.02in}
+%	%\item[]
+%	Teaching Assistant, Financial Risk Management (Undergraduate) \hfill 2013\\
+%	%\vspace*{.02in}
+%	%\item[] 
+%	Teaching Assistant, Financial Risk Management (MBA) \hfill 2012
+%	%\vspace*{.02in}
+%	%\begin{list2}
+%	%\item 
+%	%\end{list2}
+%\end{list1}
+
+\section{\sc Professional Service \& Affiliation}
+\vspace{.05in}
+\begin{list1}
+	\item[] \textbf{Ad-hoc Referee} \\
+	\begin{list1}
+		\item[] Management Science, Journal of the Royal Statistical Society (Series A), Real Estate Economics, Regional Science and Urban Economics, Pacific-Basin Finance Journal, Emerging Market Finance and Trade,
+			Review of Industrial Organization, Financial Analyst Journal, Journal of
+			Financial Service Research, Southern Economic Journal \\
+	\end{list1}
+	\item[] \textbf{Affiliations} \\
+
+	\begin{list1}
+		\item[] American Finance Association; Western Finance Association; European Finance Association; American Real Estate and Urban Economics Association 
+	\end{list1}
+\end{list1}
+
+%\section{\sc Others} 
+%\begin{list1}
+%	\item[] Skills: SAS, Stata, Matlab, C/C++, Python\\
+%	%\vspace*{.02in}
+%	%\item[] 
+%	Member: AFA, EFA, AEA\\
+%	%\vspace*{.02in}
+%	%\item[] 
+%	Passed CFA Level II exam
+%	%\vspace*{.02[]in}
+%\end{list1}
+
+%\section{\sc Media Coverage} 
+%\begin{list1}
+%	\item[] Forbes, "Backdoor Bribes? Banks Offer Special Credit Lines To Chinese Bureaucrats", Jan
+%	2016\\
+%	%\vspace*{.02in}
+%	%\item[] 
+%	Straits Times (op-ed), "Pick a card, any card: Cloaked corruption in China", Jan 2016
+%	%\vspace*{.02in}
+%	%\item[] 
+%	%\vspace*{.02[]in}
+%\end{list1}
+
+\section{\sc Media Coverage}
+\begin{enumerate}
+
+	\item %[]		
+	Economic Times, ``Do Team Modi's note ban claims stand the test of data? See for yourself'', September, 2018	
+	\item %[] 
+	Forbes, ``Singapore secret weapon in the startup race is workplace flexibility'', April, 2018 
+	\item %[] 
+	Caixin, ``Haze'',
+	November, 2017	
+	\item %[] 
+	 Business Times, ``Gender gap in bankruptcy risks: its meaning for policy at home, at work'', December, 2016
+	\item %[] 
+	Forbes, ``Backdoor bribes? Banks offer special credit lines To Chinese bureaucrats'' , January, 2016
+	\item %[] 
+	Straits Times, ``Pick a card, any card: Cloaked corruption in China'', January, 2016	
+
+\end{enumerate}
+
+
+\section{\sc References}
+\begin{list1}
+	
+	\item[] \href{http://bizfaculty.nus.edu/faculty-profiles/298-sumit}{\color{blue} Sumit Agarwal}, Low Tuck Kwong Professor of Finance, National University of Singapore, 65-9118-3925, ushakri@yahoo.com
+	\item[] \href{http://bizfaculty.nus.edu/faculty-profiles/196-wenlan-qian}{\color{blue} Wenlan Qian}, Associate Professor of Finance, National University of Singapore, 65-6516-3015, bizqw@nus.edu.sg	
+	\item[] \href{https://www.gsb.stanford.edu/faculty-research/faculty/amit-seru}{\color{blue} Amit Seru}, Steven and Roberta Denning Professor of Finance, Standford University, 1-773-834-2767, amit.seru@chicagobooth.edu
+	\item[] \href{http://profile.nus.edu.sg/sde/rststf/stf_rststf.htm}{\color{blue} Tien Foo Sing},  Professor of Real Estate Finance, National University of Singapore, 65-6516-4553, rststf@nus.edu.sg 
+
+	\item[] \href{https://zicklin.baruch.cuny.edu/faculty-profile/yildiray-yildirim/}{\color{blue} Yildiray Yildirim}, William Newman Professor in Real Estate Finance, Baruch College, City University of New York, 1-646-660-6930, Yildiray.Yildirim@baruch.cuny.edu
+	\item[] \href{http://pbcsf.tsinghua.edu.cn/portal/article/index/id/1970.html}{\color{blue}  Hong Zhang}, JD Capital Chair Professor of Finance, PBC School of Finance, Tsinghua University, 86-10-6279-4564, zhangh@pbcsf.tsinghua.edu.cn	
+\end{list1}
+\fi
+
+
+%\section{\sc References}
+%\vspace{.05in}
+%\begin{tabular}{@{}p{0.20in}p{2.5in}p{3in}}
+%& Sumit Agarwal                           & Prof. Name 2 \\
+%& Low Tuck Kwong Professor of Economics, Finance and %Real Estate                          & Dennis and Karen %Chookaszian Professor of Finance \\
+%& National University of Singapore                           & %University of Chicago  \\
+%& Tel: (65) 8118 9025                                & Tel: (773) %834 2767 \\
+%& \href{mailto:email@email.edu}{Email} & %\href{mailto:email@email.edu}{Email} \\
+%&                                      & \\
+%& Prof. Three                         & Prof. Four (etc.) \\
+%\end{tabular}
+
+\end{resume}
+\end{document}

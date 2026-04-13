@@ -1,0 +1,533 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% !TeX TXS-program:compile = txs:///xelatex/[--interaction=nonstopmode --halt-on-error]
+% Compile with XeLaTeX from this directory:
+% xelatex -interaction=nonstopmode -halt-on-error -output-directory _tmp_build institution_x_assoc_prof_cv_skeleton.tex
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{Latin Modern Mono}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue!70!black
+}
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.18em}
+\setlength{\headheight}{14pt}
+\setlength{\LTpre}{0.3em}
+\setlength{\LTpost}{0.3em}
+\emergencystretch=2em
+\setlist[itemize]{leftmargin=1.35em,itemsep=0.08em,topsep=0.08em,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.8em,itemsep=0.12em,topsep=0.08em,parsep=0pt,partopsep=0pt}
+
+\setcounter{secnumdepth}{2}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\Alph{subsection}.}
+\makeatletter
+\@addtoreset{subsection}{section}
+\makeatother
+
+\titleformat{\section}[block]
+  {\Large\bfseries}
+  {}
+  {0pt}
+  {\underline}
+\titleformat{\subsection}
+  {\large\bfseries}
+  {\thesubsection}
+  {0.6em}
+  {}
+\titlespacing*{\section}{0pt}{1.0em}{0.35em}
+\titlespacing*{\subsection}{0pt}{0.7em}{0.12em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Jian Zhang}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\cvtitle}[1]{{\Large\bfseries #1}\par}
+\newcommand{\cvname}[1]{{\large #1}\par}
+\newcommand{\cvmeta}[1]{{\normalsize #1}\par}
+\newcommand{\cventry}[4]{
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+  \textbf{#1} & #2 \\
+  \multicolumn{2}{@{}l}{\emph{#3}} \\
+  \end{tabular*}
+  #4\par\vspace{0.15em}
+}
+\newcommand{\cvpub}[1]{\item #1}
+\newcommand{\jz}{\textcolor{blue}{\textbf{Jian Zhang}}}
+\newcommand{\publink}[2]{\href{#1}{\textcolor{blue}{#2}}}
+\newcommand{\headerlink}[2]{\href{#1}{\textcolor{blue!70!black}{#2}}}
+\newcounter{pubdetailctr}
+\newcommand{\pubdetail}[2]{\stepcounter{pubdetailctr}\item[\alph{pubdetailctr}.] \textit{#1}: #2}
+
+\begin{document}
+
+\begin{center}
+\cvtitle{Curriculum Vitae}
+\cvname{Jian Zhang}
+\cvmeta{The University of Hong Kong}
+\headerlink{https://colinjianzhang.github.io/}{Personal Website} / \headerlink{https://scholar.google.com.hk/citations?user=yIAKpewAAAAJ&hl=en}{Google Scholar} / \headerlink{https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1744628}{SSRN}
+\end{center}
+
+\section{Education}
+\cventry
+  {Ph.D. in Finance}
+  {2011--2016}
+  {National University of Singapore}
+  {}
+\cventry
+  {M.A. in Economics (with honors)}
+  {2010--2011}
+  {City University of Hong Kong}
+  {}
+\cventry
+  {B.S. in Engineering}
+  {2006--2010}
+  {University of Science and Technology of China}
+  {}
+
+\section{Employment History}
+\cventry
+	{Associate Professor of Finance (with tenure)}
+	{Effective June 2026}
+	{The University of Hong Kong}
+	{}
+\cventry
+  {Assistant Professor of Finance}
+  {July 2020--June 2026}
+  {The University of Hong Kong}
+  {}
+\cventry
+  {Assistant Professor of Finance}
+  {July 2016--June 2020}
+  {Hong Kong Baptist University}
+  {}
+
+\section{Research}
+\subsection{Research Impact}
+\textbf{Impact:} Google Scholar citations= \textbf{1,106}; SSRN downloads= \textbf{12,158}; updated on 2026/04/12.
+
+\subsection{Books and Monographs}
+\begingroup\color{blue!70!black}
+\begin{enumerate}[itemsep=1.8em]
+	\cvpub{\textcolor{blue!70!black}{Sumit Agarwal, \jz, and Xin Zou. \publink{https://doi.org/10.1142/13936}{Household Sustainability}, \emph{World Scientific Publishing}, Aug 2026.}}
+\end{enumerate}
+\endgroup
+
+\subsection{Publications}
+\textbf{Notes}
+\begin{enumerate}[label=\arabic*.,leftmargin=1.8em,itemsep=0.5em]
+\item In the field of economics, finance and business, all authors are alphabetically ordered; hence, there is no distinction between the first, last, or corresponding author.
+\item Journal metrics includes 
+\begin{enumerate}
+	\item NUS top-10 A-journal list (retrieved from the NUS Business Research Benchmarking and Analytics Report (BIZRBAR, updated in September 2024)
+	\item Web-of-Science (WoS) 5-year Impact Factor
+	\item Financial Times FT-50 journal list
+	\item UT Dallas UTD-24 journal list
+\end{enumerate}
+\end{enumerate}
+\vspace{0.45em}
+\textbf{Main Publications} (\textbf{10} in NUS top-10 A-journal list: JFE$\times$3, Manag. Sci.$\times$3, REStat $\times$2, JFQA, RoF ) 
+\begin{enumerate}[itemsep=1.5em,topsep=0.55em]
+	
+\item \textcolor{blue!70!black}{Ray Fisman, Pulak Ghosh, Arko Sarkar, and \jz. \publink{https://www.nber.org/papers/w31813}{``Dirty Air and Green Investments: The Impact of Pollution Information on Portfolio Allocations.''} \emph{Journal of Financial Economics}, forthcoming.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+	\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+	\pubdetail{WoS 5-year Impact Factor}{13.7}
+	\pubdetail{Order of Authorship}{Alphabetic}
+	\pubdetail{Google Scholar Citation}{17}
+	\pubdetail{Significance}{This paper shows that access to real-time local pollution information can actively shift retail investor behavior towards greener portfolio allocations. Our findings demonstrate that information salience, rather than purely financial incentives, can be a key lever for promoting environmentally responsible investment behavior at scale.}
+	\pubdetail{Candidate's contributions}{Co-developed the research idea and conceptual framework, co-designed the empirical strategies, and conducted the empirical analyses. Collaborated on writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+	
+\item \textcolor{blue!70!black}{You Li, Weiqiang Tan, Daifei Yao, and \jz. \publink{https://doi.org/10.1287/mnsc.2024.04649}{``Do Households React to Monetary Policy.''} \emph{Management Science}, forthcoming.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\pubdetail{WoS 5-year Impact Factor}{6.6}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Significance}{This paper proposes a novel approach to infer individuals' expectations about interest rates and presents micro-level evidence on how households respond to monetary policy shocks. By focusing on real transaction data rather than survey-based expectations, this study uncovers critical new dimensions of monetary policy transmission.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and supervised the empirical analyses. Led the writing and jointly contributed to the revision for journal publication. All coauthors are junior scholars.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Pulak Ghosh, and \jz. \publink{https://doi.org/10.1162/rest_a_01584}{``Tax Policy Transmission and Household Expenditure.''} \emph{Review of Economics and Statistics}, forthcoming.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal}
+\pubdetail{WoS 5-year Impact Factor}{7.8}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{6}
+\pubdetail{Significance}{This paper provides the first systematic estimate of tax elasticity of consumption at the individual product level and documents key behavioral mechanisms underlying spending adjustment. These findings offer important insights for the design and efficacy of tax policy.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and conducted the empirical analysis. Contributed to writing and revising the paper for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Tienfoo Sing, Changcheng Song, and \jz. \publink{https://doi.org/10.1287/mnsc.2021.04232}{``Liberalizing Home-Based Business.''} \emph{Management Science} 70(12), 2024.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\pubdetail{WoS 5-year Impact Factor}{6.6}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{4}
+\pubdetail{Significance}{This paper leverages a large-scale natural experiment to provide causal evidence that liberalizing home-based business regulations can spur entrepreneurial activity. The findings underscore the importance of reducing both financial and nonpecuniary barriers in promoting self-employment and improving the vibrancy of the entrepreneurial ecosystem.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and conducted the empirical analysis. Collaborated on writing and contributed to the revision for journal publication. The applicant serves as the corresponding author.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Massimo Massa, Chengwei Wang, Hong Zhang, and \jz. \publink{https://doi.org/10.1017/S0022109020000848}{``Investing in Low-Trust Countries: On the Role of Social Trust in the Global Mutual Fund Industry.''} \emph{Journal of Financial and Quantitative Analysis} 57(1): 240--290, 2022.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50}
+\pubdetail{WoS 5-year Impact Factor}{4.4}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{24}
+\pubdetail{Significance}{This paper documents that social trust is a fundamental driver of both the activeness and performance of delegated portfolio management in the global mutual fund industry. These findings highlight trust as a key complement to formal institutions in driving the effectiveness of capital market globalization.}
+\pubdetail{Candidate's contributions}{Co-developed the research idea and conceptual framework, co-designed the empirical strategies, and conducted the empirical analyses. Collaborated on writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Souphala Chomsisengphet, Yildiray Yildirim, and \jz. \publink{https://doi.org/10.1162/rest_a_00941}{``Interest Rate Pass-Through and Consumption Response: The Deposit Channel.''} \emph{Review of Economics and Statistics} 103(5): 922--938, 2021.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal}
+\pubdetail{WoS 5-year Impact Factor}{7.8}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{20}
+\pubdetail{Significance}{This paper provides the first direct empirical evidence for the ``deposit channel'' as a distinct mechanism in the transmission of monetary policy to household consumption. The study offers important implications for monetary policy design and particularly extends the understanding of monetary policy pass-through and its real economic impact.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and conducted the empirical analysis. Contributed to writing and revising the paper for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Weiqiang Tan and \jz. \publink{https://doi.org/10.1287/mnsc.2019.3557}{``Good Days, Bad Days: Stock Market Fluctuation and Taxi Tipping Decisions.''} \emph{Management Science} 67(6): 3965--3984, 2021.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\pubdetail{WoS 5-year Impact Factor}{6.6}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{20}
+\pubdetail{Significance}{This paper introduces a novel, real-time measure of utility by leveraging daily taxicab tipping data and quantifies the impact of stock market fluctuations on individual well-being. The findings validate the value function of prospect theory in non-experimental settings and deepen our understanding of how financial market dynamics shape discretionary spending and real-time happiness.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and supervised the empirical analyses. Led the writing and jointly contributed to the revision for journal publication. All coauthors are junior scholars.}
+
+\end{itemize}
+\item \textcolor{blue!70!black}{Jennifer Jie Li, Massimo Massa, Hong Zhang, and \jz. \publink{https://doi.org/10.1016/j.jfineco.2019.09.003}{``Air Pollution, Behavioral Bias, and the Disposition Effect in China.''} \emph{Journal of Financial Economics} 142(2): 641--673, 2021.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\pubdetail{WoS 5-year Impact Factor}{13.7}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{250}
+\pubdetail{Significance}{This paper provides the first causal evidence on the impact of exposure to pollution on investment outcomes and shows that higher air pollution levels significantly intensify investors' disposition effect. These findings highlight a novel channel through which environmental quality can impact financial market efficiency and wealth distribution.}
+\pubdetail{Candidate's contributions}{Co-developed the research idea and conceptual framework, designed most of the empirical strategies, and conducted the empirical analyses. Collaborated on writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Wenlan Qian, Amit Seru, and \jz. \publink{https://doi.org/10.1016/j.jfineco.2020.03.002}{``Disguised Corruption: Evidence from Consumer Credit in China.''} \emph{Journal of Financial Economics} 137(2): 430--450, 2020.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\pubdetail{WoS 5-year Impact Factor}{13.7}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{114}
+\pubdetail{Significance}{This paper uncovers a previously undocumented form of corruption in China's banking sector, where bureaucrats receive substantially higher credit card limits and more lenient debt forgiveness than comparable non-bureaucrats. The study quantifies the social cost of this disguised form of corruption and highlights its negative spillover effects on credit access and resource allocation in emerging markets.}
+\pubdetail{Candidate's contributions}{Developed the initial research idea and conceptual framework, co-designed the empirical strategies, and conducted the empirical analysis. Jointly contributed to writing and revising the paper for journal publication. The applicant serves as the corresponding author.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Jia He, Tien Foo Sing, and \jz. \publink{https://doi.org/10.1093/rof/rfw063}{``Gender Gap in Personal Bankruptcy Risks: Empirical Evidence from Singapore.''} \emph{Review of Finance} 22(2): 813--847, 2018.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{Ranking}{NUS top-10 A-journal; FT-50}
+\pubdetail{WoS 5-year Impact Factor}{8.4}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{41}
+\pubdetail{Significance}{This paper provides the first comprehensive evidence on the gender gap in personal bankruptcy risk and offers novel insights for banks and financial institutions, emphasizing the importance of considering gender and cultural factors in credit risk assessment and loan underwriting.}
+\pubdetail{Candidate's contributions}{This paper originated from my independent second-year PhD summer research project. I developed the research idea and conceptual framework, designed the empirical strategies, and conducted the empirical analysis. I led the writing and was responsible for most of the revisions for publication.}
+\end{itemize}
+\end{enumerate}
+
+\vspace{0.45em}
+\textbf{Other Publications} (\textbf{4 tier-2} journal publications)
+\begin{enumerate}[itemsep=1.5em,topsep=0.55em]
+\item \textcolor{blue!70!black}{Sumit Agarwal, Swee Hoon Ang, Yonglin Wang, and \jz. \publink{https://doi.org/10.1016/j.jbankfin.2025.107616}{``Cash-Back Rewards: Effects on Spending and Debt Accumulation.''} \emph{Journal of Banking and Finance}, 2025.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{WoS 5-year Impact Factor}{4.8}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{3}
+\pubdetail{Significance}{This paper documents a large positive impact of a credit card cash-back rewards programme on consumption and debt repayment. The effect is stronger among liquidity-constrained and less financially literate consumers. The findings suggest that even small financial incentives in consumer credit may exacerbate financial vulnerability for certain consumer segments, raising concerns for product design and regulation.}
+\pubdetail{Candidate's contributions}{Co-developed the research idea and conceptual framework, designed most of the empirical strategies, and conducted the corresponding empirical analyses. Collaborated on writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Brent Ambrose, Yildiray Yildirim, and \jz. \publink{https://doi.org/10.1007/s11146-021-09837-1}{``Risk Retention Rules and the Issuance of Commercial Mortgage Backed Securities.''} \emph{Journal of Real Estate Finance and Economics} 68(4): 684--714, 2024.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{WoS 5-year Impact Factor}{1.9}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{15}
+\pubdetail{Significance}{This paper evaluates the real effects of the Dodd-Frank Act and shows that the regulation led to tighter underwriting standards and curtailed credit growth. These results highlight the effectiveness of risk retention policy in aligning incentives between securitization sponsors and investors, and have important implications for regulatory design in CMBS markets.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and conducted the empirical analysis. Contributed to writing and revising the paper for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Gang-Zhi Fan, Han Li, Jiangyi Li, and \jz. \publink{https://doi.org/10.1016/j.jbankfin.2022.106588}{``Housing Property Rights, Collateral, and Entrepreneurship: Evidence from China.''} \emph{Journal of Banking and Finance} 143: 106588, 2022.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{WoS 5-year Impact Factor}{4.8}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{21}
+\pubdetail{Significance}{This paper provides new evidence that access to housing collateral, enabled by full property rights, can promote entrepreneurial activity. The findings highlight the crucial role of institutional property rights in alleviating credit constraints for entrepreneurs.}
+\pubdetail{Candidate's contributions}{Developed the research idea and conceptual framework, designed the empirical strategies, and supervised the empirical analyses. Led the writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+
+\item \textcolor{blue!70!black}{Sumit Agarwal, Richard Green, Eric Rosenblatt, Vincent W. Yao, and \jz. \publink{https://doi.org/10.1016/j.jfi.2018.01.001}{``Gender Difference and Intra-Household Economic Power in Mortgage Signing Order.''} \emph{Journal of Financial Intermediation} 36: 86--100, 2018.}
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+\pubdetail{WoS 5-year Impact Factor}{4.6}
+\pubdetail{Order of Authorship}{Alphabetic}
+\pubdetail{Google Scholar Citation}{23}
+\pubdetail{Significance}{This paper offers new empirical evidence on how gender differences and intra-household economic power shape financial decision-making within households. The findings provide important insights into the persistent influence of gender roles in household financial decisions and broader gender dynamics in economic behaviour.}
+\pubdetail{Candidate's contributions}{Co-developed the research idea and conceptual framework, designed most of the empirical strategies, and conducted the corresponding empirical analyses. Collaborated on writing and jointly contributed to the revision for journal publication.}
+\end{itemize}
+\end{enumerate}
+
+\subsection{Book Chapters, Reviews and Policy Publications}
+\textbf{Refereed}
+\begin{enumerate}[itemsep=0.9em]
+\cvpub{\textcolor{blue!70!black}{Sumit Agarwal and \jz. \publink{https://doi.org/10.1111/ajfs.12294}{``FinTech, Lending and Payment Innovation: A Review.''} \emph{Asia-Pacific Journal of Financial Studies} 49(3), 2020.}}
+\end{enumerate}
+
+\textbf{Non-refereed}
+\begin{enumerate}
+\cvpub{\textcolor{blue!70!black}{Sumit Agarwal, Xin Zou, and \jz. \publink{https://academic.oup.com/edited-volume/61801/chapter/546463529\#546463529}{``Household Finance.''} \emph{Oxford Research Encyclopedia of Economics and Finance}. Oxford University Press, 2022.}}
+\end{enumerate}
+
+\subsection{Selected Working Papers} (\textbf{1 Conditional Accept} and \textbf{2 R\&R} in NUS top-10 A-journal list)
+\begin{enumerate}[itemsep=0.8em]
+\cvpub{``Consumption Tax and Corporate Product Mix Decisions'' (with Pulak Ghosh, Martin Jacob, and Ya Kang).  \textcolor{blue!70!black}{\emph{Journal of Accounting and Economics}}}, Conditionally Accepted
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+	\pubdetail{Ranking}{NUS top-10 A-journal; FT-50; UTD-24}
+\end{itemize}
+
+\cvpub{``When Jane Goes Green and John Stays Put: The Gender Gap in Sustainable Investing'' (with Pulak Ghosh and Jing Li). \textcolor{blue!70!black}{\emph{Journal of Financial and Quantitative Analysis}}.}, Revise $\&$ Resubmit
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+	\pubdetail{Ranking}{NUS top-10 A-journal; FT-50}
+\end{itemize}
+
+\cvpub{``Bridging the Gender Gap in Credit Access: The Role of Bank Competition'' (with Pulak Ghosh, Jiawen Huang, and Chen Lin). \textcolor{blue!70!black}{\emph{Journal of Financial and Quantitative Analysis}}.} , Revise $\&$ Resubmit
+
+\begin{itemize}[leftmargin=2.0em,label={},before=\setcounter{pubdetailctr}{0}]
+	\pubdetail{Ranking}{NUS top-10 A-journal; FT-50}
+\end{itemize}
+%\cvpub{``When Weber Meets Kyle: Bureaucrats 'Front-running' Public Project Announcements'' (with Tomasz Piskorski and Amit Seru).}
+\cvpub{``A Tale of Two Zoos: Machine Learning Insights on Retail Investors?'' (with Pulak Ghosh, Huahao Lu, and Hong Zhang).}
+\cvpub{``The Digital Revolution: Bridging the Information Gap in the Consumer Credit Market'' (with Sumit Agarwal and Yonglin Wang).}
+\cvpub{``When Humans Meet Algorithms: Evidence from Retail Investor Trading'' (with Pulak Ghosh and You Li).}
+\cvpub{``The Surprising Green Performance of Retail Investors: A New (Behavioral) Channel'' (with Sumit Agarwal, Yanlin Bao, Pulak Ghosh, and Hong Zhang).}
+\cvpub{``Opioid Crisis and Local Economic Pain: Evidence from Commercial Real Estate Loan'' (with Yildiray Yildirim and Bing Zhu).}
+\cvpub{``Does Geopolitical Risk Exposure Lead to Higher Cost of Capital? Evidence from Multinational Companies'' (with Fang Hu, Tse-Chun Lin, and Weiqiang Tan).}
+\cvpub{``Co-Collateral and the Shadow Cost of Margin Constraints'' (with Massimo Massa, Chengwei Wang, and Hong Zhang).}
+\end{enumerate}
+
+\subsection{List of PhD thesis advisors and other regular senior co-authors}
+\begin{enumerate}[itemsep=0.35em]
+\cvpub{Sumit Agarwal (National University of Singapore): Chair of PhD dissertation committee.}
+\cvpub{Wenlan Qian (National University of Singapore): Member of PhD dissertation committee.}
+\cvpub{Pulak Ghosh (Indian Institute of Management Bangalore): Senior collaborator.}
+\cvpub{Amit Seru (Stanford University): Senior collaborator.}
+\cvpub{Ray Fisman (Boston University): Senior collaborator.}
+\cvpub{Massimo Massa (INSEAD): Senior collaborator.}
+\cvpub{Hong Zhang (Singapore Management University): Senior collaborator.}
+\cvpub{Chen Lin (University of Hong Kong): Senior collaborator.}
+\cvpub{Tse-Chun Lin (University of Hong Kong): Senior collaborator.}
+\end{enumerate}
+
+\subsection{Conference Presentations and Invited Seminars}
+(Not including presentations by coauthors, Scheduled – S, Chair – C, Disscussant –D)
+\begin{itemize}
+\item 2016 \& prior: Singapore Scholar Symposium; Australasian Finance and Banking Conference; National University of Singapore; AFA; Fourth Symposium on Emerging Markets: China and Beyond; CICF; University of South Carolina; Chinese University of Hong Kong; Xiamen University; Hong Kong Baptist University.
+\item 2017: AsianFA; CUNY-Baruch; HKMA.
+\item 2018: AREUEA International; Summer Research Conference, ISB; Great Bay Area Summer Finance Conference.
+\item 2019: AEA; CICF; HKU-CBI ESG Conference; Western Economic Association International Conference; Chinese University of Hong Kong.
+\item 2020: The University of Hong Kong; ShanghaiTech University.
+\item 2021: EFA; Greater Bay Area Finance Conference.
+\item 2022: Digital Economy Symposium; AREUEA Annual Conference.
+\item 2023: ABFER; Real Estate Finance and Investment Symposium; Asian Real Estate Society Annual Conference.
+\item 2024: Household Finance and Investor Protection Symposium; HKU Summer Finance Conference; AsianFA (C); CICF; AREUEA International (P, D); Hong Kong Joint Finance Research Workshop (D); NTHU-UNSW Symposium on Sustainable Finance and Economics; Penn State University; Chinese University of Hong Kong; Jinan University; Massey Sustainable Finance Conference (C, D); Queensland University of Technology; Griffith University; Australasian Finance and Banking Conference (C, D).
+\item 2025: AEA; AFA (D); ASU-HKU Interdisciplinary Conference; Lingnan University; FIRS (D); CICF (D); Sun Yat-sen University ; FMA Asia/Pacific.
+\item 2026: UMacau; NUS; 2026 HKU Summer Finance Conference(S); Griffith University(S); CICF(S).
+\end{itemize}
+
+\subsection{Research Grants}
+\begin{longtable}{@{}p{0.08\textwidth}p{0.56\textwidth}p{0.12\textwidth}p{0.16\textwidth}@{}}
+\toprule
+\textbf{S/N} & \textbf{Grant} & \textbf{Role} & \textbf{Amount} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+1 & The Real Estate Research Institute Grant of Pension Real Estate Association, 2018--2019 & Co-PI & USD 15,000 \\
+2 & Natural Science Fund of Guangdong Province, 2019--2022 & Co-PI & RMB 100,000 \\
+3 & General Research Fund (GRF), Research Grant Council of Hong Kong, 2020/2021 & PI & HKD 280,000 \\
+4 & HKU Seed Fund for Basic Research, 2020/2022 & PI & HKD 130,000 \\
+5 & HKU Seed Fund for Basic Research, 2024/2026 & PI & HKD 108,546 \\
+6 & General Research Fund (GRF), Research Grant Council of Hong Kong, 2025/2026 & PI & HKD 545,000 \\
+7 & Shenzhen Government Grant, 2025--2028 & Co-PI & RMB 3,000,000 \\
+8 & HKU Jockey Club Enterprise Sustainability Global Research Institute, 2025/2026 & PI & HKD 20,000 \\
+\end{longtable}
+
+\begin{longtable}{@{}p{0.44\textwidth}p{0.48\textwidth}@{}}
+\toprule
+\textbf{Summary} & \textbf{Amount} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Total amount & HKD 1,083,546 + RMB 3,100,000 + USD 15,000 \\
+Total amount as PI & HKD 1,083,546 \\
+\end{longtable}
+
+\section{Honours, Awards, and Professional Recognition}
+\subsection{Honours and Awards}
+\begin{enumerate}
+\cvpub{Award for Outstanding Performance in Scholarly Work, Business School of Hong Kong Baptist University, 2020.}
+\cvpub{Finalist, NBS-ONE Research Impact on Practice Award, Network for Business Sustainability, 2020, for ``Air Pollution, Behavioral Bias, and the Disposition Effect in China.''}
+\cvpub{Best Paper Award in Banking and Financial Institutions, 2015 Asian Finance Association Annual Meeting (AsFA), for ``Investing in Low-Trust Countries: On the Role of Social Trust in the Global Mutual Fund Industry.''}
+\end{enumerate}
+
+\subsection{Honorary and Visiting Appointments}
+\cventry
+  {Newman Fellow}
+  {2017/09--2018/01}
+  {Baruch College, City University of New York}
+  {}
+
+\section{Teaching}
+\subsection{Courses at HKU}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.42\textwidth}>{\raggedright\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}}
+\toprule
+\textbf{Academic Year} & \textbf{Course} & \textbf{Level} & \textbf{Notes} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+2020--2021 & MFIN7030 Current Topics in Finance & MFin & Postgraduate \\
+2020--2021 & FINA1310 Corporate Finance KL & UG & Undergraduate \\
+2021--2022 & MFIN7050 Household Finance & MFin & Postgraduate \\
+2021--2022 & FINA1310 Corporate Finance KL & UG & Undergraduate \\
+2022--2023 & MFIN7050 Household Finance & MFin & Postgraduate \\
+2022--2023 & MFIN7015 Behavioral Finance & MFin & Postgraduate \\
+2022--2023 & FINA1310 Corporate Finance F & UG & Undergraduate \\
+2023--2024 & MFIN7050 Household Finance & MFin & Postgraduate \\
+2023--2024 & MFIN7015 Behavioral Finance & MFin & Postgraduate \\
+2023--2024 & FINA3381 Behavioral Finance & UG & Undergraduate \\
+2024--2025 & MFIN7050 Household Finance & MFin & Postgraduate \\
+2024--2025 & MFIN7015 Behavioral Finance & MFin & Postgraduate \\
+2024--2025 & FINA3381 Behavioral Finance & UG & Undergraduate \\
+\end{longtable}
+
+\subsection{Curriculum Development and Pedagogical Innovation}
+\begin{itemize}
+\item Designed and developed MFIN7050 Household Finance for the Master of Finance programme, drawing directly on my own research.
+\end{itemize}
+
+\subsection{Teaching Evaluations}
+\begin{itemize}
+\item My courses have been very well received by students, as reflected in the 2024 SFTL scores: 95.8 for the undergraduate course (department average: 85.8) and 97.4 for the graduate course (department average: 91.3).
+\end{itemize}
+\vspace{0.4em}
+\noindent\underline{Example Comments from Student Evaluations}
+\begin{enumerate}
+\cvpub{\textit{``Dr. Zhang is very encouraging and supportive. He offers help to students and answer students' doubts and questions. He always interacts with students during lectures by asking questions related to the course. He adopts two-ways communication and learning which makes the learning experience much more interesting. He explains all the concepts thoroughly to make sure we understand.''}}
+\cvpub{\textit{``He used very detailed examples to illustrate different concepts which helped me a lot in understanding the materials.''}}
+\cvpub{\textit{``The teacher is very patient in class and very careful in explaining knowledge and interacting with students.''}}
+\cvpub{\textit{``Dr. Zhang is a very responsible teacher that helps me made an excellent progress throughout the module 1. He has a mature, inquiring mind and has strived to helps us learn the knowledge and concepts. He sets himself a very high standards and provides us a very high standards lecture slides and class. Overall, I love his responsible teaching and high standards lecture notes.''}}
+\end{enumerate}
+
+\subsection{Teaching Awards}
+\begin{itemize}
+\item Faculty UG Teaching Reward Scheme 2022--23 (HKD 10,000).
+\item Faculty UG Teaching Reward Scheme 2023--24 (HKD 25,000).
+\item Faculty UG Teaching Reward Scheme 2024--25 (HKD 25,000).
+\end{itemize}
+
+\subsection{Student Supervision and Placement}
+\begin{itemize}
+\item Ph.D. primary advisory: Yang Lei (Year 4) and Qinxuan Zhang (Year 2).
+\item Co-supervisor / dissertation committee service: Haozhou Gong, Qingwei Wang, Yue Zhang, and Po-Yu Liu (graduated in 2024; first placement: National Taiwan University).
+\item Collaboration with Ph.D. students:
+\begin{itemize}
+\item Supervision of Jiawen Huang on a paper currently under revise-and-resubmit at the \textcolor{blue!70!black}{\emph{Journal of Financial and Quantitative Analysis}}; placement at Xiamen University.
+\item Supervision of Jing Li on a paper currently under revise-and-resubmit at the \textcolor{blue!70!black}{\emph{Journal of Financial and Quantitative Analysis}}; placement at Zhejiang University.
+\end{itemize}
+\end{itemize}
+
+\section{University Service}
+\subsection{Department-Level Service}
+\begin{itemize}
+\item \underline{Ph.D. Admission Committee for Finance Area (2021--present)}: I reviewed Ph.D. applications, assessed research fit and preparation, interviewed shortlisted candidates, and deliberated with the chair and fellow committee members. This service supported doctoral recruitment and helped maintain the department's admission standards.
+\item \underline{Member of Junior Faculty Recruitment Committee (2021, 2022, 2024, and 2025)}: I reviewed candidate files, participated in interviews and job-market discussions, and contributed to committee deliberations on junior faculty hiring. Through this role, I helped assess candidates' research potential, teaching fit, and long-term contribution to the department.
+\item \underline{Department Weekly Lunch Gathering (2024--present)}: I coordinated the department's weekly lunch gathering as part of its internal academic community-building efforts. The gathering provides a regular space for informal exchange among faculty members and helps sustain collegial interaction within the department.
+\end{itemize}
+
+\subsection{Faculty/School-Level Service}
+\begin{itemize}
+\item \underline{Member of MFin Admissions Committee} (2020--present): I reviewed applications and supported admissions decisions for the Master of Finance programme. This service contributed to student selection and cohort quality for one of the school's flagship postgraduate programmes.
+\item \underline{Member of MFin Curriculum Development Committee} (2021--present): I participated in discussions on programme structure, course offerings, and curriculum development for the Master of Finance programme. Through this role, I supported the programme's continuing development and academic quality.
+\item \underline{Member of MFin Staff-Student Consultative Committee} (2022--present): I reviewed student feedback and took part in consultative discussions between faculty and students. This role supported programme improvement and the overall student experience.
+\item \underline{DBA Thesis Internal Examiner} (2021 and 2022): I served as an internal examiner for DBA theses and assessed the academic quality and standards of doctoral work. This service contributed to quality assurance in the school's doctoral training and examination process.
+\end{itemize}
+
+\section{Public and Professional Service}
+\subsection{Service to the Academic Community and Profession}
+\underline{Editorial Board Service}
+\begin{itemize}
+\item Associate Editor, \textcolor{blue!70!black}{\emph{Journal of Business Research}}, 2025--present. 
+\begin{itemize}
+	\item Web of Science Impact Factor: 12.8.
+\end{itemize}
+\item Guest Editor, \textcolor{blue!70!black}{\emph{Sustainability}}, 2022--2023
+\begin{itemize}
+	\item Special issue: Household Sustainability. Web of Science Impact Factor: 3.6.
+\end{itemize}
+\end{itemize}
+
+\underline{Conference Programme/Organising \& Grant Review Committees}
+\begin{itemize}
+\item HKU FinTech in the AI Era Workshop 2025 (Co-organizer).
+\item European Finance Association Annual Meeting (program reviewer in 2021, 2022, 2023, 2024, and 2025).
+\item Midwest Finance Association Annual Meetings (program reviewer in 2021).
+\item Expert reviewer for research grants
+\begin{itemize}
+	\item Multi-Year Research Grant, University of Macau
+	\item Faculty Research Grant, Macau University of Sci. and Tech.
+\end{itemize}
+\end{itemize}
+
+\underline{Ad hoc Reviewer for Academic Journals}
+\begin{itemize}
+\item \emph{Journal of Accounting and Economics}, \emph{Review of Economics and Statistics} ($\times$4), \emph{Management Science} ($\times$8), \emph{Journal of Financial and Quantitative Analysis} ($\times$3), \emph{Journal of the Royal Statistical Society} (Series A), \emph{Journal of Banking and Finance} ($\times$2), \emph{Journal of Corporate Finance} ($\times$2), \emph{British Accounting Review}, \emph{Real Estate Economics} ($\times$5), \emph{China Economic Review} ($\times$2), \emph{Regional Science and Urban Economics}, \emph{Journal of Accounting Literature}, \emph{Pacific-Basin Finance Journal}, \emph{Review of Industrial Organization}, \emph{Financial Analyst Journal} ($\times$4), \emph{Journal of Financial Service Research}, \emph{Southern Economic Journal}, \emph{Journal of Behavioral and Experimental Economics}, \emph{Journal of International Financial Markets, Institutions \& Money}, and \emph{Emerging Markets Finance and Trade}.
+\end{itemize}
+
+\subsection{Policy, Industry, and Public Engagement}
+\underline{Policy Publications}
+\begin{itemize}
+\item \textcolor{blue!70!black}{Sumit Agarwal and \jz. \publink{https://www.fca.org.uk/publication/market-studies/review-credit-card-literature.pdf}{``The Credit Card Market Study: : Perspectives from Consumers.''} \emph{Financial Conduct Authority, United Kingdom} MS 14/6.2, November 2015.}
+\end{itemize}
+
+\underline{Collaboration with the Industry}
+\begin{itemize}
+\item Principal Investigator, behavioral research study with \textcolor{blue!70!black}{\publink{https://www.sunlife.ca/en/}{Sun Life Financial Inc.} \emph{``Financial Literacy of the Sandwich Generation,''}}, 2026/2027, \textit{Project Fund: CAD 121,000 (HKD 678,900)}
+\end{itemize}
+
+\underline{Selected Media Coverage}
+\begin{itemize}
+\item \textcolor{blue!70!black}{\emph{The Harvard Law School Forum on Corporate Governance}}, ``Dirty Air and Green Investments: The Impact of Pollution Information on Portfolio Allocations.''
+\item \textcolor{blue!70!black}{\emph{Forbes}}, ``India's Demonetization Drive: A Necessary Jolt Towards A More Digital Economy?'' features the paper ``Demonetization and Digitization.''
+\item \textcolor{blue!70!black}{\emph{The Economic Times}}, ``Do Team Modi's Note Ban Claims Stand the Test Of Data? See for Yourself'' features the paper ``Demonetization and Digitization.''
+\item \textcolor{blue!70!black}{\emph{Forbes}}, ``Singapore Secret Weapon in the Startup Race is Workplace Flexibility'' features the paper ``Liberalizing Home-Based Business.''
+\item \textcolor{blue!70!black}{\emph{The Business Times}}, ``Gender Gap in Bankruptcy Risks: Its Meaning for Policy at Home, at Work'' features the paper ``Gender Gap in Bankruptcy Risk: Evidence from Singapore.''
+\item \textcolor{blue!70!black}{\emph{The Straits Times}}, ``Pick a Card, Any Card: Cloaked Corruption in China'' features the paper ``Disguised Corruption: Evidence from Consumer Credit in China.''
+\item \textcolor{blue!70!black}{\emph{Caixin}}, ``Haze'' features the paper ``Air Pollution, Behavioral Bias, and the Disposition Effect in China.''
+\end{itemize}
+
+\end{document}
