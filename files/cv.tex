@@ -66,6 +66,10 @@ anchorcolor = blue]{hyperref}
 \usepackage{datetime}                                    % Custom date format for date field
 \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}   % Defining month year date format
 
+\usepackage{changepage}
+\newenvironment{institutionblock}{\begin{adjustwidth}{0.5em}{0em}}{\end{adjustwidth}}
+
+
 \usepackage{fancyhdr}                                    % Used for custom page headers
 \pagestyle{fancy}
 \fancyhf{}
@@ -82,6 +86,13 @@ anchorcolor = blue]{hyperref}
 	}
 }
 \renewcommand{\arraystretch}{1.5}
+\newcommand{\cventry}[4]{
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+		\textbf{#1} & #2 \\
+		\multicolumn{2}{@{}l}{\emph{#3}} \\
+	\end{tabular*}
+	#4\par\vspace{0.15em}
+}
 \begin{document}
 
 \name{ {\LARGE JIAN ZHANG} \vspace*{.1in}}
@@ -97,12 +108,18 @@ anchorcolor = blue]{hyperref}
 	\item[] Pokfulam Road, Hong Kong \hfill \href{https://colinjianzhang.github.io/}{Website: \color{blue} colinjianzhang.github.io}
 \end{list1}
 
+
 \section{\sc Academic Appointments}
+\iffalse
 \begin{list1}
-	\item[] The University of Hong Kong 
-	\hfill effective June 2026  \\
+	\item[] The University of Hong Kong \\ 
+	%\hfill Effective July 2026  \\
 	\vspace*{.2cm}
 	\phantom{th} Associate Professor of Finance	(with tenure)	
+	\hfill Effective July 2026  \\
+	\phantom{th} Assistant Professor of Finance		
+	\hfill Effective July 2026  \\
+		
 	\item[] The University of Hong Kong 
 	\hfill 2020 - 2026  \\
 	\vspace*{.2cm}
@@ -116,16 +133,31 @@ anchorcolor = blue]{hyperref}
 	\vspace*{.2cm}
 	\phantom{th} Newman Fellow	
 \end{list1}
+\fi
 
-\section{\sc Education}
 \begin{list1}
-	\item[] Ph.D., Finance, National University of Singapore \hfill 2016 
-\\
-	\vspace*{-.1in}
-	\item[] M.A., Economics (with honors), City University of Hong Kong \hfill 2011\\
-	\vspace*{-.1in}
-	\item[] B.S., Engineering, University of Science and Technology of China \hfill 2010
+	
+	\item[] The University of Hong Kong \\
+	\vspace*{.2cm}
+	\begin{tabular*}{\linewidth}{@{\hspace{1.5em}}l@{\extracolsep{\fill}}r@{}}
+		Associate Professor of Finance (with tenure) & Effective July 2026 \\
+		Assistant Professor of Finance                 & 2020--2026 \\
+	\end{tabular*}
+	
+	\item[] Hong Kong Baptist University \\
+	\vspace*{.2cm}
+	\begin{tabular*}{\linewidth}{@{\hspace{1.5em}}l@{\extracolsep{\fill}}r@{}}
+		Assistant Professor of Finance & 2016--2020 \\
+	\end{tabular*}
+	
+	\item[] Baruch College, City University of New York \\
+	\vspace*{.2cm}
+	\begin{tabular*}{\linewidth}{@{\hspace{1.5em}}l@{\extracolsep{\fill}}r@{}}
+		Newman Fellow & 2017--2018 \\
+	\end{tabular*}
+	
 \end{list1}
+
 
 \section{\sc Research Interests}
 \begin{list1}
@@ -133,29 +165,14 @@ anchorcolor = blue]{hyperref}
 %\item[] Secondary: One, Two
 \end{list1}
 
-\section{\sc Awards and Grants}
-\vspace{.1cm}
-\begin{tabular}{@{}p{0.0 in}p{0.6 in}p{4.60in}}
-	& 2025-2028 & Co-PI, Shenzhen Government Grant, RMB 3,000,000 \\
-	& 2025-2026 & PI, General Research Fund (GRF), Research Grants Council, Hong Kong SAR, China, HK\$ 545,000 \\
-	& 2025-2026 & PI, HKU Jockey Club Enterprise Sustainability Global Research Institute Grant, HK\$ 20,000 \\
-	& 2024-2026 & PI, Seed Fund for Basic Research, HKU, Hong Kong SAR, China, HK\$ 108,546 \\
-	& 2021-2023 & PI, General Research Fund (GRF), the Research Grant Council, Hong Kong SAR, China, HK\$ 280,000 \\
-	& 2021-2023 & PI, Seed Fund for Basic Research, HKU, Hong Kong SAR, China, HK\$ 130,000 \\	
-	& 2019-2022   & Co-PI, Natural Science Fund of Guangdong Province, RMB 100,000 \\
-	& 2020   & Finalist, NBS-ONE Research Impact on Practice Award \\
-	& 2020   & HKBU Business School Performance Award in Scholarly Work \\	
-	& 2018-2019   & Co-PI, Real Estate Research Institute (RERI) Grant, US\$ 15,000 \\
-	& 2018-2019   & PI, HKBU Faculty Research Grant, HK\$ 100,000 \\
-	& 2016-2019   & PI, HKBU Startup Grant, HK\$ 100,000 \\			
-	& 2015   & Best Paper Award in Banking and Financial Institutions, Asian Finance Association
-	Annual Conference \\		
-\end{tabular}
 \section{\sc Journal Publications}
 \begin{enumerate}
+\item ``\href{https://www.sciencedirect.com/science/article/pii/S0165410126000418}{\color{black} Consumption Tax and Corporate Product Mix Decisions}'' (with P. Ghosh, M. Jacob, and Y. Kang), \textbf{\emph{Journal of Accounting and Economics}}, forthcoming.
+\vspace*{0.2cm} 	
 
 \item ``\href{https://www.nber.org/papers/w31813}{\color{black} Dirty Air and Green Investments: The Impact of Pollution Information on Portfolio Allocations}'' (with Fisman, R., P. Ghosh, and A. Sarkar), \textbf{\emph{Journal of Financial Economics}}, forthcoming.
 \vspace*{0.2cm} 	
+
 \item ``\href{https://doi.org/10.1287/mnsc.2024.04649}{\color{black} Do Households React to Monetary Policy}'' (with Li, Y., W. Tan, and D. Yao), \textbf{\emph{Management Science}}, forthcoming.
 	\vspace*{0.2cm}
 \item ``\href{https://doi.org/10.1162/rest_a_01584}{\color{black} Tax Policy Transmission and Household Expenditure}'' (with Agarwal, S. and P. Ghosh), \textbf{\emph{Review of Economics and Statistics}}, forthcoming.
@@ -179,6 +196,7 @@ anchorcolor = blue]{hyperref}
 \vspace*{0.2cm}	
 \item %[]	
  ``\href{https://academic.oup.com/rof/article-abstract/22/2/813/2629221}{\color{black} Gender Gap in Personal Bankruptcy Risks: Empirical Evidence from Singapore} '' (with Agarwal, S., J. He, and T. Sing), \textbf{\emph{Review of Finance}},22(2), 2018, 813-847.
+ \iffalse
 \vspace*{0.2cm}
 \item %[]	
 ``\href{https://doi.org/10.1016/j.jbankfin.2025.107616}{\color{black} Cash-Back Rewards: Effects on Spending and Debt Accumulation}'' (with Agarwal, S., S. H. Ang, and Y. Wang), \textbf{\emph{Journal of Banking and Finance}}, 2025.
@@ -190,39 +208,37 @@ anchorcolor = blue]{hyperref}
 ``\href{https://www.sciencedirect.com/science/article/abs/pii/S0378426622001844}{\color{black} Housing Property Rights, Collateral, and Entrepreneurship: Evidence from China}'' (with Fan, G.-Z., H. Li, and J. Li), \textbf{\emph{Journal of Banking and Finance}}, 143, 2022, 106588.
 \vspace*{0.2cm}
 \item ``\href{https://www.sciencedirect.com/science/article/abs/pii/S104295731830007X}{\color{black} Gender Difference and Intra-household Economic Power in Mortgage Signing Order} '' (with Agarwal, S., R. Green, E. Rosenblatt, and V. Yao,), \textbf{\emph{Journal of Financial Intermediation}},36, 2018, 86-100.	
+\fi
 \end{enumerate}
 
 \section{\sc Selected Working Papers}
 \begin{enumerate}
-
-\item 	``Consumption Tax and Corporate Product Mix Decisions'' (with P. Ghosh, M. Jacob, and Y. Kang), \textit{Conditionally Accepted, Journal of Accounting and Economics}
-\vspace*{0.2cm}
-\item 	``When Jane Goes Green and John Stays Put: The Gender Gap in Sustainable Investing'' (with P. Ghosh and J. Li), \textit{Revise \& Resubmit, Journal of Financial and Quantitative Analysis}
-\vspace*{0.2cm} 
-\item %[] 
-``Bridging the Gender Gap in Credit Access: The Role of Bank Competition'' (with P. Ghosh, J. Huang, and C. Lin), \textit{Revise \& Resubmit, Journal of Financial and Quantitative Analysis}
-\vspace*{0.2cm}
 \item ``A Tale of Two Zoos: Machine Learning Insights on Retail Investors?'' (with P. Ghosh, H. Lu, and H. Zhang)
-\vspace*{0.2cm}
+\vspace*{0.1cm}
+
 \item %[] 
 ``The Digital Revolution: Bridging the Information Gap in the Consumer Credit Market'' (with S. Agarwal and Y. Wang)
-\vspace*{0.2cm}
+\vspace*{0.1cm}
+
+\item %[] 
+``The Surprising Green Performance of Retail Investors: A New (Behavioral) Channel'' (with S. Agarwal, Y. Bao, P. Ghosh, and H. Zhang)
+\vspace*{0.1cm}
+\item ``Opioid Crisis and Local Economic Pain: Evidence from Commercial Real Estate Loan'' (with Y. Yildirim and B. Zhu)
+\vspace*{0.1cm}
+\item %[] 
+``Does Geopolitical Risk Exposure Lead to Higher Cost of Capital? Evidence from Multinational Companies'' (with F. Hu, T.-C. Lin, and W. Tan)
+\vspace*{0.1cm}
+\item %[] 
+``Co-Collateral and the Shadow Cost of Margin Constraints'' (with M. Massa, C. Wang, and H. Zhang)
+\vspace*{0.1cm}
+
+\iffalse
 \item %[] 
 ``When Humans Meet Algorithms: Evidence from Retail Investor Trading'' (with P. Ghosh and Y. Li)
 \vspace*{0.2cm}
 \item %[] 
-``The Surprising Green Performance of Retail Investors: A New (Behavioral) Channel'' (with S. Agarwal, Y. Bao, P. Ghosh, and H. Zhang)
-\vspace*{0.2cm}
-\item ``Opioid Crisis and Local Economic Pain: Evidence from Commercial Real Estate Loan'' (with Y. Yildirim and B. Zhu)
-\vspace*{0.2cm}
-\item %[] 
-``Does Geopolitical Risk Exposure Lead to Higher Cost of Capital? Evidence from Multinational Companies'' (with F. Hu, T.-C. Lin, and W. Tan)
-\vspace*{0.2cm}
-\item %[] 
-``Co-Collateral and the Shadow Cost of Margin Constraints'' (with M. Massa, C. Wang, and H. Zhang)
-\vspace*{0.2cm}
+``Bridging the Gender Gap in Credit Access: The Role of Bank Competition'' (with P. Ghosh, J. Huang, and C. Lin), \textit{Revise \& Resubmit, Journal of Financial and Quantitative Analysis}
 
-\iffalse
 \vspace*{0.2cm}
 \item ``Cash-back Rewards, household spending, and debt accumulation'' (with S. Agarwal and Y. Wang)
  
@@ -242,23 +258,52 @@ anchorcolor = blue]{hyperref}
 \fi
 \end{enumerate}
 
-\section{\sc Reviews and Other Publications}
+\section{\sc Education}
+\begin{list1}
+	\item[] Ph.D., Finance, National University of Singapore \hfill 2016 
+	\\
+	\vspace*{-.1in}
+	\item[] M.A., Economics (with honors), City University of Hong Kong \hfill 2011\\
+	\vspace*{-.1in}
+	\item[] B.S., Engineering, University of Science and Technology of China \hfill 2010
+\end{list1}
+
+\section{\sc Book and Reviews}
 \begin{enumerate}
 \item %[]
 ``Household Sustainability'' (with S. Agarwal and X. Zou), \textbf{World Scientific Publishing}, forthcoming, 2026
-\vspace*{0.2cm}
+\vspace*{0.1cm}
 \item %[]
 ``Household Finance'' (with S. Agarwal and X. Zou), \textbf{Oxford Research Encyclopedia of Economics and Finance}, May 2022
-\vspace*{0.2cm} 	
+\vspace*{0.1cm} 	
 \item %[]
 ``FinTech, Lending and Payment Innovation: A Review'', (with S. Agarwal), \textbf{Asia-Pacific Journal of Financial Studies}, 49(3), 2020, 347-509.
-\vspace*{0.2cm} 	
+\vspace*{0.1cm} 	
 	\item %[]
  ``Credit Card Market Study: Perspectives from Consumers'' (with S. Agarwal), \textbf{Financial Conduct Authority}, United Kingdom, MS 14/6.2, November 2015
 
 \end{enumerate}
-
 \iffalse
+\section{\sc Awards and Grants}
+\vspace{.08cm}
+\begin{tabular}{@{}p{0.0 in}p{0.6 in}p{4.60in}}
+	& 2025-2028 & Co-PI, Shenzhen Government Grant, RMB 3,000,000 \\
+	& 2025-2026 & PI, General Research Fund (GRF), Research Grants Council, Hong Kong SAR, China, HK\$ 545,000 \\
+	& 2025-2026 & PI, HKU Jockey Club Enterprise Sustainability Global Research Institute Grant, HK\$ 20,000 \\
+	& 2024-2026 & PI, Seed Fund for Basic Research, HKU, Hong Kong SAR, China, HK\$ 108,546 \\
+	& 2021-2023 & PI, General Research Fund (GRF), the Research Grant Council, Hong Kong SAR, China, HK\$ 280,000 \\
+	& 2021-2023 & PI, Seed Fund for Basic Research, HKU, Hong Kong SAR, China, HK\$ 130,000 \\	
+	& 2019-2022   & Co-PI, Natural Science Fund of Guangdong Province, RMB 100,000 \\
+	& 2020   & Finalist, NBS-ONE Research Impact on Practice Award \\
+	& 2020   & HKBU Business School Performance Award in Scholarly Work \\	
+	& 2018-2019   & Co-PI, Real Estate Research Institute (RERI) Grant, US\$ 15,000 \\
+	& 2018-2019   & PI, HKBU Faculty Research Grant, HK\$ 100,000 \\
+	& 2016-2019   & PI, HKBU Startup Grant, HK\$ 100,000 \\			
+	& 2015   & Best Paper Award in Banking and Financial Institutions, Asian Finance Association
+	Annual Conference \\		
+\end{tabular}
+
+
 
 \section{\sc Seminar and Conferences}
 \vspace{.05in}
